@@ -21,7 +21,7 @@
 ![Gelid GC Extreme](photo/ThermalSolutions.jpg)
 
 ## Контакты
-Звоните 
+По вопросу ремонта видеокарт или при возникновении гарантийного слуая - звоните с 10 до 23:
 ![Номер Телефона](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAAVCAYAAABovC1/AAAABHNCSVQICAgIfAhkiAAABq1JREFU
 aIHt2X3MllUdB/APDyAgYBRGSS+OxwKyAv4gWQS+ZGlZoxdslWU9uVluki3obbWKovWylVardM2m
 pdlWy+YitwQZQycVFUHxsqK0V9MlSoBivPXH91x77ufiuu/7uZf+1f3dDjzXuX7nnN91zvf8ft9z
@@ -55,9 +55,9 @@ yDRRr4OSp9cbmWebcKWEyJsa3i0XjXCd5MNeMF2E2aD4vkHIfbxmN02O0XOKHxuFqO1+xJsvKep6
 EYGdMBnv0f4mmFwk3dnm3Rvk+7+m9x/ErhCC39jwbkC+4xwhyWbRYId7HKOPPvr4v8Z/Ac0S6EH2
 9ujCAAAAAElFTkSuQmCC)
 
-Мессенджеры к указанному номеру не привязаны.
+Мессенджеров на этом номере нет.
 
 Или обращайтесь к нам через
 [Avito](https://www.avito.ru/moskva_zelenograd/predlozheniya_uslug/slozhnyy_remont_videokart_v_zelenogrademoskve_1026582835)
 
-Если объявление неактивно - значит сейчас на ремонт очередь))
+Если объявление на Avito неактивно - значит сейчас на ремонт очередь))
