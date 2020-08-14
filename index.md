@@ -1,6 +1,7 @@
 ## Наши ремонты видеокарт
-
+![EVGA Extra Thermal pads](photo/EvgaExtraThermalPad.jpg)
 ![KFA2 Katana 1070](photo/kfa2-katana-1070.jpg)
+
 ## О нас
 Наш сервис находится в 14 мкр-не Зеленограда.
 
