@@ -1,3 +1,9 @@
+---
+pagelang: ru
+title: Ремонт видеокарт в Зеленограде
+pagedescription: специализиуемся на ремонте видеокарт, берёмся за запутанные случаи
+---
+
 ## Наши ремонты видеокарт
 ![EVGA Extra Thermal pads](photo/EvgaExtraThermalPad.jpg)
 ![KFA2 Katana 1070](photo/kfa2-katana-1070.jpg)
