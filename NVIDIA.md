@@ -1,7 +1,7 @@
 ---
 pagelang: en-US
 title: Old NVIDIA artifacts
-pagedescription: Utility to fix old NVIDIA video cards with artifacts
+pagedescription: Tool to fix old GPUs
 redir_js: if (/^RU/i.test(navigator.language)) window.location.href = "/NVIDIA.RU"
 redirect_from:
   - /n

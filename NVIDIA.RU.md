@@ -1,7 +1,7 @@
 ---
 pagelang: ru
 title: Old NVIDIA artifacts
-pagedescription: Утилита восстановления старых артефактных карт NVIDIA
+pagedescription: Утилита ремонта старых карт
 redirect_from:
   - /nvidia.RU
   - /Nvidia.RU

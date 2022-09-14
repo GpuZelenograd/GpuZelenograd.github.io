@@ -457,10 +457,6 @@ footer {
     margin:0;
   }
 
-  nav{
-    display: none;
-  }
-
   header, section, footer {
     float:none;
 
@@ -524,7 +520,9 @@ footer {
       -ms-text-overflow: ellipsis;
     }
 
-    p { display: none;}
+    p {
+      font-size: 12px;
+    }
   }
 
   #banner {
@@ -572,11 +570,6 @@ footer {
   section {
     margin-top: 5px;
   }
-
-  #banner { display: none;}
-  header ul {
-    display:none;
-  }
 }
 
 @media print {
@@ -600,10 +593,6 @@ footer {
 }
 
 @media print, screen and (max-height: 480px) {
-  nav {
-    display: none;
-  }
-
   footer {
     text-align: center;
     margin: 20px auto;
