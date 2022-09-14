@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="{{ page.pagelang | default: "ru" }}">
   <head>
+    {% if page.redir_js %}
+    <script>{{ page.redir_js }}</script>
+    {% endif %}
     <meta charset="utf-8">
 {% seo %}
     <link rel="icon" type="image/png" href="favicon128.png">
