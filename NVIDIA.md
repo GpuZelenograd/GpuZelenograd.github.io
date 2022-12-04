@@ -12,10 +12,14 @@ redirect_from:
   - /NVidia
 ---
 
+<p/>
 
 # [🗄️Windows 64-bit (4MB zip)](https://gpuzelenograd.github.io/releases/empty.zip)
 # [🐧Linux (4MB tar.xz)](https://gpuzelenograd.github.io/releases/empty.tar.xz)
 
+<p/>
+<p/>
+<p/>
 
 ## User manual
-[Some screenshots here](https://gpuzelenograd.github.io/NVIDIARU.html?user_manual)
+Under construction, [some screenshots here](https://gpuzelenograd.github.io/NVIDIARU.html?user_manual)
