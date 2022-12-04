@@ -13,8 +13,9 @@ redirect_from:
 ---
 
 
-# [🔽Windows 64-bit (4MB)](https://gpuzelenograd.github.io/releases/empty.zip)
-# [🔽Linux (4MB)](https://gpuzelenograd.github.io/releases/empty.zip)
+# [🗄️Windows 64-bit (4MB zip)](https://gpuzelenograd.github.io/releases/empty.zip)
+# [🐧Linux (4MB tar.xz)](https://gpuzelenograd.github.io/releases/empty.tar.xz)
 
 
 ## User manual
+[Some screenshots here](https://gpuzelenograd.github.io/NVIDIARU.html?user_manual)
