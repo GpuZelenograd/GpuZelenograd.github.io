@@ -7,6 +7,7 @@ redirect_from:
   - /n
   - /N
   - /nvidia
+  - /nVidia
   - /Nvidia
   - /NVidia
 ---
