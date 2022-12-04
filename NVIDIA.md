@@ -33,14 +33,14 @@ After enabling driverless boot mode, the instruction for plugging problematic GP
 
 See [Troubleshooting section](#troubleshooting) if you can't boot OS even without driver while problematic card is plugged in.
 
-### Stage1 - test VBIOS flash
+## Stage1 - test VBIOS flash
 
-### Stage2 - more VBIOS flashes
+## Stage2 - more VBIOS flashes
 
-### Completion
+## Completion
 ... more details under construction, [some more screenshots here](https://gpuzelenograd.github.io/NVIDIARU.html?user_manual)
 
-#### <a id="bootmode">Special boot mode</a>
+### <a id="bootmode">Special boot mode</a>
 The special boot mode button just tunes built-in OS functionality. Mode can be switched back to normal in 4 ways:
 * automatically during completion stage after the VBIOS search is done
 * manually via the "Disable boot without driver" button
