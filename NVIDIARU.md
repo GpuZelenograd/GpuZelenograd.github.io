@@ -2,7 +2,7 @@
 pagelang: ru
 title: Old NVIDIA artifacts
 pagedescription: Утилита ремонта карт GTX470-780Ti
-redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.href = "/NVIDIA?" + window.location.search.substring(1) + "_noredirect""
+redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.href = "/NVIDIA?" + window.location.search.substring(1) + "_noredirect"
 redirect_from:
   - /nvidiaRU
   - /nVidiaRU
