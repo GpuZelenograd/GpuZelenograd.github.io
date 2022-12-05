@@ -38,7 +38,7 @@ See [Troubleshooting section](#troubleshooting) if you can't boot OS even withou
 ## Stage2 - more VBIOS flashes
 
 ## Completion
-... more details under construction, [some more screenshots here](https://gpuzelenograd.github.io/NVIDIARU.html?user_manual)
+... more details under construction, [some more screenshots here](https://gpuzelenograd.github.io/NVIDIARU.html?user_manual&noredirect)
 
 ### <a id="bootmode">Special boot mode</a>
 The special boot mode button just tunes built-in OS functionality. Mode can be switched back to normal in 4 ways:
