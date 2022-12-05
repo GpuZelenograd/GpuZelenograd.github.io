@@ -1,8 +1,8 @@
 ---
 pagelang: ru
 title: Old NVIDIA artifacts
-pagedescription: Утилита ремонта старых карт
-redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.href = "/NVIDIA?noredirect"
+pagedescription: Утилита ремонта карт GTX470-780Ti
+redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.href = "/NVIDIA?" + window.location.search.substring(1) + "_noredirect""
 redirect_from:
   - /nvidiaRU
   - /nVidiaRU
@@ -28,11 +28,10 @@ redirect_from:
 
 <br/>
 <br/>
+Видеообзор: 
 <br/>
 
 # Руководство пользователя
-Видеоруководство по использованию: 
-
 Перед первой вставкой проблемной видеокарты необходимо выполнить подготовку, поскольку иначе возможны зависания при загрузке ОС. Должен быть включен специальный режим загрузки, в котором при каждом старте можно выбрать - грузиться как обычно или заходить в безопасный режим без драйвера.
 
 Для этого загружаем систему без целевой карты, нажимаем кнопку "Включить загрузку без драйвера" (может быть в подменю "Подготовка без карты…")

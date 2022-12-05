@@ -1,8 +1,8 @@
 ---
 pagelang: en-US
 title: Old NVIDIA artifacts
-pagedescription: Tool to fix old GPUs
-redir_js: if (/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.href = "/NVIDIARU?noredirect"
+pagedescription: Tool to fix GTX470-780Ti GPUs
+redir_js: if (/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.href = "/NVIDIARU?" + window.location.search.substring(1) + "_noredirect"
 redirect_from:
   - /n
   - /N
