@@ -20,7 +20,7 @@ redirect_from:
   - /NVidiaRu
 ---
 
-
+The "Old NVIDIA artifacts" utility позволяет восстановить некоторые GTX470-780Ti путём отключения неисправных блоков.
 <br/>
 
 # [🗄️Windows 64-bit (4MB zip)](https://gpuzelenograd.github.io/releases/empty.zip)

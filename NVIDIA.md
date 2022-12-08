@@ -12,6 +12,7 @@ redirect_from:
   - /NVidia
 ---
 
+The "Old NVIDIA artifacts" utility allows restoration of some GTX 470-780Ti by disabling bad blocks.
 <br/>
 
 # [🗄️Windows 64-bit (4MB zip)](https://gpuzelenograd.github.io/releases/empty.zip)
