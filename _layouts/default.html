@@ -187,18 +187,7 @@
 		var rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }
 		img.addEventListener('load', rm, false)
 		document.body.appendChild(img)
-	}
-
-	// Make it easy to skip your own views.
-	if (location.hash === '#toggle-goatcounter') {
-		if (localStorage.getItem('skipgc') === 't') {
-			localStorage.removeItem('skipgc', 't')
-			alert('GoatCounter tracking is now ENABLED in this browser.')
-		}
-		else {
-			localStorage.setItem('skipgc', 't')
-			alert('GoatCounter tracking is now DISABLED in this browser until ' + location + ' is loaded again.')
-		}
+		window.history.replaceState({}, '', window.location.pathname); //Remove search part for bookmarking
 	}
 
   on_load(function() {
