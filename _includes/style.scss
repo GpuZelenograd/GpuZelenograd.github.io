@@ -430,6 +430,11 @@ footer {
   line-height: 16px;
 }
 
+body {
+  text-align: justify;
+  word-wrap:break-word;
+}
+
 @media print, screen and (max-width: 1060px) {
 
   div.wrapper {
@@ -483,10 +488,6 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
-  body {
-    word-wrap:break-word;
-  }
-
   header {
     padding:20px 20px;
     margin: 0;
@@ -530,8 +531,6 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
-  }
 
   header{
     position: relative;
