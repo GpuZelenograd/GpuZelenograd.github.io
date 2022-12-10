@@ -25,9 +25,11 @@ The "Old NVIDIA artifacts" utility allows restoration of some GTX 470-780Ti by d
 # User manual
 
 Some preparations need to be done before first plug of artifacting GPU, because otherwise OS may hang during boot. Start the "Old NVIDIA artifacts" tool while problematic GPU is not plugged yet, and press "Enable boot without driver" button, it can be under "Prepare without GPU" submenu. This enables [the special boot mode](#bootmode), that allows selecting each time between normal and safe-mode driverless boot.
+
 ![e1](photo/e1.png)
 
 After enabling driverless boot mode, the instruction for plugging problematic GPU would be shown
+
 ![e2](photo/e2.png)
 
 See [Troubleshooting section](#troubleshooting) if you can't boot OS even without driver while problematic card is plugged in.
