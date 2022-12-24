@@ -29,6 +29,9 @@ redirect_from:
 <br/>
 <br/>
 Видеообзор: 
+
+[![VideoManual](https://img.youtube.com/vi/FAaXGDfH3Ro/sddefault.jpg)](https://www.youtube.com/watch?v=FAaXGDfH3Ro)
+
 <br/>
 
 # Руководство пользователя
