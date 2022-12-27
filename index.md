@@ -3,6 +3,9 @@ pagelang: ru
 title: Ремонт видеокарт в Зеленограде
 pagedescription: специализиуемся на ремонте видеокарт, берёмся за запутанные случаи
 ---
+## Наши утилиты
+[Old NVIDIA artifacts for GTX470-780Ti](https://gpuzelenograd.github.io/NVIDIARU?main)
+[memtest_vulkan (Open source)](https://github.com/GpuZelenograd/memtest_vulkan/releases)
 
 ## Наши ремонты видеокарт
 ![EVGA Extra Thermal pads](photo/EvgaExtraThermalPad.jpg)
