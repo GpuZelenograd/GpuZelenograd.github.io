@@ -20,7 +20,7 @@ The "Old NVIDIA artifacts" utility allows restoration of some GTX 470-780Ti by d
 
 <br/>
 <br/>
-Thanks for all reasearches of modded BIOSes, such files was very helpful during development!
+Thanks to all researchers of modded BIOSes, such files were very helpful during development!
 <br/>
 
 # User manual
