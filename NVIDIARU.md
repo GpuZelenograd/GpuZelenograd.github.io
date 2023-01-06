@@ -23,8 +23,8 @@ redirect_from:
 Утилита "Old NVIDIA artifacts" позволяет восстановить некоторые GTX470-780Ti, отключая проблемные блоки
 <br/>
 
-## [**🗄️Windows 10 64-bit&nbsp;** 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
-## [**🐧Linux&nbsp;** 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
+### [<big><big>**🗄️Windows 10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
+### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
 
 <br/>
 <br/>
