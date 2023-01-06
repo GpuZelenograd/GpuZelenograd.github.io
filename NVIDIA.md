@@ -15,8 +15,8 @@ redirect_from:
 The "Old NVIDIA artifacts" utility allows restoration of some GTX 470-780Ti by disabling bad blocks
 <br/>
 
-# [🗄️Windows 10 64-bit <small>4MB zip, GTX 470-780Ti</small>](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
-# [🐧Linux <small>4MB tar.xz, GTX **645**-780Ti</small>](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
+## [**🗄️Windows 10 64-bit&nbsp;** 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
+## [**🐧Linux&nbsp;** 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
 
 <br/>
 <br/>
