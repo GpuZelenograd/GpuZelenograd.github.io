@@ -15,8 +15,9 @@ redirect_from:
 The "Old NVIDIA artifacts" utility allows restoration of some GTX 470-780Ti by disabling bad blocks
 <br/>
 
-### [<big><big>**🗄️Windows 10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
-### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
+### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
+### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
+**2022.12** is the current version, [changelog and older versions here](#changelog)
 
 <br/>
 <br/>
@@ -54,3 +55,15 @@ Many problematic GPUs can hang booting even during POST, before OS load. Some of
 * enable/disable CSM-compatible-with-non-EFI mode in motherboard BIOS
 * enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS and attach display to the motherboard
 * use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU and plug the problematic card in another slot.
+
+
+### <a id="changelog">Changelog and older versions</a>
+
+Version 2022.12 improvements:
+  * Fixed running on Windows 7
+  * Fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others
+  * Modding VBIOS files can be done without admin rights
+
+#### 2022.11 downloads
+  * [Windows <i>8</i>-10 64-bit 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
+  * [Linux 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
