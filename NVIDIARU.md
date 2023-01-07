@@ -20,11 +20,13 @@ redirect_from:
   - /NVidiaRu
 ---
 
-Утилита "Old NVIDIA artifacts" позволяет восстановить некоторые GTX470-780Ti, отключая проблемные блоки
+*Версия 2022.12 исправляет проблемы непрошиваемости некоторых карт Asus DirectCU II, а также работает не только на Win10, но и на Win7*
+
+Утилита "Old NVIDIA artifacts" **2022.12** позволяет восстановить некоторые GTX470-780Ti, отключая проблемные блоки
 <br/>
 
-### [<big><big>**🗄️Windows 10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
-### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
+### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
+### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br/>
 <br/>
@@ -32,6 +34,8 @@ redirect_from:
 
 [![VideoManual](https://img.youtube.com/vi/FAaXGDfH3Ro/sddefault.jpg)](https://www.youtube.com/watch?v=FAaXGDfH3Ro)
 
+<br/>
+[Список изменений и прошлые версии](#changelog)
 <br/>
 
 # Руководство пользователя
@@ -86,3 +90,14 @@ redirect_from:
 * включить/отключить CSM-compatible-with-non-EFI режим в BIOS материнской платы
 * включить «Integrated GPU» или «iGPU Multi-Monitor» в BIOS материнской платы и подключите дисплей к материнской плате
 * использовать две дискретных видеокарты: вставьте в ближайший к процессору слот PCIe работающаю видеокарту с подключенным дисплеем, а проблемную карту — в другой слот.
+
+### <a id="changelog">Список изменений и прошлые версии</a>
+
+Улучшения в версии 2022.12:
+  * исправлена работа в Windows 7
+  * исправлена прошиваемость GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II и некоторых других
+  * создание вариаций VBIOS из указанного файла может производиться без прав администратора
+
+#### Архивы версии 2022.11
+  * [Windows <i>8</i>-10 64-bit 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
+  * [Linux 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)

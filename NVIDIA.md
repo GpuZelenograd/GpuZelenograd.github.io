@@ -60,9 +60,9 @@ Many problematic GPUs can hang booting even during POST, before OS load. Some of
 ### <a id="changelog">Changelog and older versions</a>
 
 Version 2022.12 improvements:
-  * Fixed running on Windows 7
-  * Fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others
-  * Modding VBIOS files can be done without admin rights
+  * fixed running on Windows 7
+  * fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others
+  * generating modded VBIOSes from a given file can be done without admin rights
 
 #### 2022.11 downloads
   * [Windows <i>8</i>-10 64-bit 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
