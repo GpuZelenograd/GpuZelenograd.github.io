@@ -12,7 +12,7 @@ redirect_from:
   - /NVidia
 ---
 
-The "Old NVIDIA artifacts" **2022.12** utility allows restoration of some GTX 470-780Ti by disabling bad blocks
+Fix GPU artifacting for some GTX 470-780Ti: disable bad blocks by the "Old NVIDIA artifacts **2022.12**" utility
 <br/>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
