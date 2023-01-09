@@ -17,6 +17,8 @@ Fix GPU artifacting for some GTX 470-780Ti: disable bad blocks by the "Old NVIDI
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
+
+![Titan](photo/titan-scheme.png){: style="float: right"}
 <br/>
 <br/>
 Thanks to all researchers of modded BIOSes, such files were very helpful during development!
