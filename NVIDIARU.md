@@ -26,18 +26,18 @@ redirect_from:
 <br/>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
-![Titan](photo/titan-scheme.png){: width="45%" style="float: right"}
+![Titan](photo/titan-scheme.png){: width="42%" style="float: right"}
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br/>
-Восстановление GTX Titan 6GB поколения Kepler также поддерживается утилитой. Для экспертов дополнительно выложен <br/>[архив c вариантами модификаций VBIOS для референсного исполнения GTX Titan](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
-<br/>
-Видеообзор
-<br/>
-[![VideoManual](photo/video-manual.png)](https://www.youtube.com/watch?v=FAaXGDfH3Ro)
-
+Восстановление GTX Titan 6GB поколения Kepler также поддерживается утилитой. Для экспертов дополнительно выложен [архив c вариантами модификаций VBIOS для референсного исполнения GTX Titan](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
 <br/>
 [Список изменений и прошлые версии](#changelog)
+<br/>
+Видеообзор
+
+[![VideoManual](photo/video-manual.png)](https://www.youtube.com/watch?v=FAaXGDfH3Ro)
+
 <br/>
 
 # Руководство пользователя
