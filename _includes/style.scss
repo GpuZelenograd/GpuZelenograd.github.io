@@ -528,6 +528,9 @@ body {
   header ul, header p.view {
     position:static;
   }
+  big {
+    font-size: initial;
+  }
 }
 
 @media print, screen and (max-width: 480px) {
