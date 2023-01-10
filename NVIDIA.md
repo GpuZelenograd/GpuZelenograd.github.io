@@ -22,6 +22,7 @@ Fix GPU artifacting for some GTX 470-780Ti: disable bad blocks by the "Old NVIDI
 <br/>
 The utility also supports repairing GTX Titan 6GB. Additionaly, experts can download [the archive with VBIOS modification variants for GTX Titan with reference PCB](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
 <br/>
+<br/>
 [Changelog and older versions](#changelog)
 <br/>
 <br/>
