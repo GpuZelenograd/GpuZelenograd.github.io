@@ -30,10 +30,11 @@ redirect_from:
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br/>
+Восстановление GTX Titan 6GB поколения Kepler также поддерживается утилитой. Для экспертов дополнительно выложен <br/>[архив c вариантами модификаций VBIOS для референсного исполнения GTX Titan](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
 <br/>
 Видеообзор
-
-[![VideoManual](https://img.youtube.com/vi/FAaXGDfH3Ro/sddefault.jpg)](https://www.youtube.com/watch?v=FAaXGDfH3Ro)
+<br/>
+[![VideoManual](photo/video-manual.png)](https://www.youtube.com/watch?v=FAaXGDfH3Ro)
 
 <br/>
 [Список изменений и прошлые версии](#changelog)
