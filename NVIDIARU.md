@@ -32,7 +32,9 @@ redirect_from:
 <br/>
 Восстановление GTX Titan 6GB поколения Kepler также поддерживается утилитой. Для экспертов дополнительно выложен [архив c вариантами модификаций VBIOS для референсного исполнения GTX Titan](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
 <br/>
+<br/>
 [Список изменений и прошлые версии](#changelog)
+<br/>
 <br/>
 Видеообзор
 
