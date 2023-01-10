@@ -36,7 +36,6 @@ redirect_from:
 [Список изменений и прошлые версии](#changelog)
 <br/>
 <br/>
-Видеообзор
 [![VideoManual](photo/video-manual.png)](https://www.youtube.com/watch?v=FAaXGDfH3Ro)
 
 <br/>
