@@ -20,10 +20,9 @@ redirect_from:
   - /NvidiaRu
   - /NVidiaRu
 ---
-
-*Версия 2022.12: исправлена прошивка некоторых Asus DirectCU II; помимо Win10 теперь работает на Win7!*
-
 Лечение артефактов/отвалов некоторых GTX470-780Ti: отключение сбойных блоков утилитой Old NVIDIA artifacts
+
+*Скачать версию 2022.12 - исправления для Asus DirectCU II, Win10 + Win7*
 <br/>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
