@@ -13,7 +13,7 @@ redirect_from:
   - /NVidia
 ---
 
-Fix GPU artifacting for some GTX 470-780Ti: disable bad blocks by the "Old NVIDIA artifacts **2022.12**" utility
+<a id="latest">Old NVIDIA artifacts 2022.12 disables bad blocks in artifacting GTX 470-780Ti GPUs</a>
 <br/>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
@@ -21,10 +21,10 @@ Fix GPU artifacting for some GTX 470-780Ti: disable bad blocks by the "Old NVIDI
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br/>
-The utility also supports repairing GTX Titan 6GB. Additionaly, experts can download [the archive with VBIOS modification variants for GTX Titan with reference PCB](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
+Old NVIDIA artifacts utility works with GTX470-780Ti gpus and it can fix artifacts by disable malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB Kepler is also supported
 <br/>
 <br/>
-[Changelog and older versions](#changelog)
+[Changelog and misc downloads](#changelog)
 <br/>
 <br/>
 Thanks to all researchers of modded BIOSes, such files were very helpful during development!
@@ -77,13 +77,16 @@ Many problematic GPUs can hang booting even during POST, before OS load. Some of
 * use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU and plug the problematic card in another slot.
 
 
-### <a id="changelog">Changelog and older versions</a>
+### <a id="changelog">Changelog and misc downloads</a>
 
-Version 2022.12 improvements:
-  * fixed running on Windows 7
+[Version 2022.12](#latest) improvements:
+  * now works on Windows7 (Windows10 as well)
   * fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others
   * generating modded VBIOSes from a given file can be done without admin rights
 
 #### 2022.11 downloads
   * [Windows <i>8</i>-10 64-bit 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
   * [Linux 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
+
+#### Other
+  * [modified VBIOS variants for reference edition GTX Titan 6GB](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
