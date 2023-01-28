@@ -13,7 +13,7 @@ redirect_from:
   - /NVidia
 ---
 
-Old NVIDIA artifacts 2022.12 disables bad blocks in artifacting GTX 470-780Ti GPUs
+Old NVIDIA artifacts 2022.12 disables bad blocks in artifacting GPUs
 <a id="latest"><br/></a>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
@@ -21,7 +21,7 @@ Old NVIDIA artifacts 2022.12 disables bad blocks in artifacting GTX 470-780Ti GP
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br/>
-Old NVIDIA artifacts utility works with GTX470-780Ti gpus and it can fix artifacts by disable malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB Kepler is also supported
+Old NVIDIA artifacts utility works with Fermi, Kepler and GTX750Ti gpus. It can fix artifacts by disable malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB Kepler is also supported
 <br/>
 <br/>
 [Changelog and misc downloads](#changelog)
