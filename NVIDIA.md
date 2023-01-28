@@ -30,7 +30,7 @@ Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti gpus. It can fix
 Thanks to all researchers for modded BIOSes, they were very helpful during development!
 <br>
 
-# User manual
+## User manual
 
 Prepare your system for malfunctioning GPU otherwise your system may hang during OS boot:  start the utility while faulty GPU is not plugged yet
 
