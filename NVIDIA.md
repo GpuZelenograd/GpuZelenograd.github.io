@@ -41,6 +41,8 @@ Prepare your system for malfunctioning GPU otherwise your system may hang during
 
 ![e2](photo/e2.png)
 
+if you can't boot your system with faulty GPU even in safe mode, then check [Troubleshooting](#troubleshootingsect)
+
 ## First flash
 Click "Flash testing VBIOS"
 
@@ -81,7 +83,7 @@ You can run GPU-Z and check your current "bus width" and "memory size"
 * manually by launching as Administrator `restore_boot_mode` tool from detail subfolder
 * manually by running as Administrator `bcdedit /set "{bootmgr}" displaybootmenu no` (for Linux: `systemctl set-default graphical.target`)
 
-### <a id="troubleshooting">Troubleshooting</a>
+### <a id="troubleshootingsect">Troubleshooting</a>
 Some of faulty GPUS may hang even during POST and don't make it to safe mode. Some of them *can* be fixed, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. Try following:
 * enable or disable CSM-compatible-with-non-EFI mode in motherboard BIOS
 * enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS and attach display to the motherboard
