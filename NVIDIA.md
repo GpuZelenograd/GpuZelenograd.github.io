@@ -43,9 +43,11 @@ Prepare your system for malfunctioning GPU otherwise your system may hang during
 
 ## First flash
 Click "Flash testing VBIOS"
+
 ![e3](photo/e3.png)
 
 Original VBIOS automatically got saved at this point, click "Reboot"
+
 ![e4](photo/e4.png)
 
 
