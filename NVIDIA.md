@@ -13,8 +13,8 @@ redirect_from:
   - /NVidia
 ---
 
-<a id="latest">Old NVIDIA artifacts 2022.12 disables bad blocks in artifacting GTX 470-780Ti GPUs</a>
-<br/>
+Old NVIDIA artifacts 2022.12 disables bad blocks in artifacting GTX 470-780Ti GPUs
+<a id="latest"><br/></a>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
 ![Titan](photo/titan-scheme.png){: width="42%" style="float: right"}
