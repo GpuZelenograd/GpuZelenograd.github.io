@@ -25,9 +25,9 @@ redirect_from:
 *Скачать версию 2022.12 - исправления для карт Asus, Win10 + Win7:*
 <br>
 
-### [🗄️<big><big>**Windows 7-10 64-bit&nbsp;**</big></big>4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
+### [<big><big>**Windows 7-10 64-bit&nbsp;**</big></big>🗄️4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
 ![Titan](photo/titan-scheme.png){: width="42%" style="float: right"}
-### [🐧<big><big>**Linux&nbsp;**</big></big>4MB tar.xz, GTX645-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
+### [<big><big>**Linux&nbsp;**</big></big>🐧4MB tar.xz, GTX645-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br>
 Программа Old NVIDIA artifacts работает с видеокартами поколений Fermi, Kepler и 750Ti. Она может исправить некоторые виды артефактов, прошивая VBIOS отключающий неисправные блоки. Прошитая видеокарта может использоваться на любом компьютере. Восстановление GTX Titan 6GB также поддерживается утилитой.
