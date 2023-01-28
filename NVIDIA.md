@@ -21,7 +21,7 @@ Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br/>
-Old NVIDIA artifacts utility works with Fermi, Kepler and GTX750Ti gpus. It can fix artifacts by disable malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB Kepler is also supported
+Old NVIDIA artifacts utility works with Fermi, Kepler and GTX750Ti gpus. It can fix some  artifacting GPUs by disabling malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB Kepler is also supported
 <br/>
 <br/>
 [Changelog and misc downloads](#changelog)
@@ -32,48 +32,58 @@ Thanks to all researchers for modded BIOSes, they were very helpful during devel
 
 # User manual
 
+Prepare your system for malfunctioning GPU otherwise your system may hang during OS boot:  start the utility while faulty GPU is not plugged yet
+
 ![e1](photo/e1.png)
 
-Prepare your system for malfunctioning GPU otherwise your system may hang during OS boot:
-* start the utility while faulty GPU is not plugged yet
-* click "Enable boot without driver" ([special boot mode](#bootmode) where you can select between ususal boot and safe mode without video driver)
+* click "Enable boot without driver" ([special boot mode](#bootmode) where you can select between regular boot and safe mode without video driver)
 * follow instructions on your screen
 
 ![e2](photo/e2.png)
 
-## Stage1 - initial VBIOS flash
-
+## First flash
+Click "Flash testing VBIOS"
 ![e3](photo/e3.png)
 
-
+Original VBIOS automatically got saved at this point, click "Reboot"
 ![e4](photo/e4.png)
 
 
-## Stage2 - more VBIOS flashes
+## Next flashes
+If there system boots fine and there are NO artifacts on the screen:
+* install NVIDIA driver compatible with the GPU, like 390/391.xx
+* run any *short* benchmark
+* start the utility again, select "Activate more blocks and reboot"
 
 ![e5](photo/e5.png)
 
+If there are artifacts or boot/benchmark problems - select "Flash fixing VBIOS and reboot"
 
 ![e6](photo/e6.png)
 
+Continue until the utility will find an optimal and stable VBIOS. If your GPU still shows some artifacts then it can not be fixed by this utility.
 
-## Completion
+## Last stage
+If the utility have found optimal and stable VBIOS and GPU have completed any benchmark - start the utility and select "Complete configuring", this will save modified VBIOS and return your system to normal boot mode
+
 ![e7](photo/e7.png)
+
+You can run GPU-Z and check your current "bus width" and "memory size"
 
 ![e8](photo/e8.png)
 
 ### <a id="bootmode">Special boot mode</a>
-The special boot mode button just tunes built-in OS functionality. Mode can be switched back to normal in several ways:
-* automatically during completion stage after the VBIOS search is done
+"Enable boot without driver" button just tunes built-in OS functionality to let you enter safe mode without video driver. To reverse it try one of this:
+* successfully complete VBIOS modification (will be applied automatically)
 * manually via the "Disable boot without driver" button
 * manually by launching as Administrator `restore_boot_mode` tool from detail subfolder
 * manually by running as Administrator `bcdedit /set "{bootmgr}" displaybootmenu no` (for Linux: `systemctl set-default graphical.target`)
 
 ### <a id="troubleshooting">Troubleshooting</a>
-Many problematic GPUs can hang booting even during POST, before OS load. Some of such cards are fixable too, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. Try the following:
-* enable/disable CSM-compatible-with-non-EFI mode in motherboard BIOS
+Some of faulty GPUS may hang even during POST and don't make it to safe mode. Some of them *can* be fixed, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. Try following:
+* enable or disable CSM-compatible-with-non-EFI mode in motherboard BIOS
 * enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS and attach display to the motherboard
-* use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU and plug the problematic card in another slot.
+* use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU and plug the faulty card in another slot.
 
 
 ### <a id="changelog">Changelog and misc downloads</a>
