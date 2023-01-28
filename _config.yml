@@ -1,4 +1,4 @@
-repository: MichaelCurrin/my-github-projects
+repository: GpuZelenograd/GpuZelenograd.github.io
 theme: jekyll-theme-leap-day
 plugins:
   - jekyll-redirect-from
