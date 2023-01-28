@@ -111,11 +111,11 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:26px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 23px;
   color:#393939;
 }
 
@@ -147,7 +147,6 @@ ul{
 
 strong {
   font-weight: bold;
-  color: #333;
 }
 
 .wrapper {
@@ -258,9 +257,6 @@ header {
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    -ms-text-overflow: ellipsis;
   }
 
   p {
@@ -268,84 +264,6 @@ header {
     text-shadow:rgba(#000, 0.2) 0 1px 0;
     font-size: 18px;
     margin: 0px;
-  }
-}
-
-#banner {
-  z-index: 100;
-  left:0;
-  right:50%;
-  height: 50px;
-  margin-right:-382px;
-  position: fixed;
-  top: 115px;
-  background: #ffcc00;
-  border: 1px solid #f0b500;
-  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
-  border-radius: 0px 2px 2px 0px;
-  padding-right: 10px;
-
-  .button {
-    border: 1px solid #dba500;
-    background: linear-gradient(rgb(255, 231, 136), rgb(255, 206, 56));
-    border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
-    background-color: #FFE788;
-    margin-left: 5px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height:14px;
-    font-size:14px;
-    color:#333;
-    font-weight: bold;
-    display:inline-block;
-    text-align:center;
-
-    &:hover {
-      background: linear-gradient(rgb(255, 231, 136), rgb(255, 231, 136));
-      background-color: #ffeca0;
-    }
-  }
-
-  .fork {
-    position:fixed;
-    left:50%;
-    margin-left:-325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height:14px;
-    font-size:14px;
-    background-color: #FFE788;
-  }
-
-  .downloads {
-    float: right;
-    margin:0 45px 0 0;
-
-    span {
-      float:left;
-      line-height:52px;
-      font-size:90%;
-      color:#9d7f0d;
-      text-transform:uppercase;
-      text-shadow:rgba(#fff, 0.2) 0 1px 0;
-    }
-  }
-
-  ul {
-    list-style:none;
-    height:40px;
-    padding:0;
-    float: left;
-    margin-left:10px;
-
-    li {
-      display:inline;
-
-      a.button {
-        background-color: #FFE788;
-      }
-    }
   }
 }
 
@@ -382,29 +300,6 @@ nav {
     li {
       padding: 5px 0px;
       line-height: 16px;
-      // padding-right:17px;
-      // position:relative;
-      // right:-12px;
-
-      &.tag-h1 {
-        font-size: 1.2em;
-
-        a {
-          font-weight: bold;
-          color: #333;
-        }
-
-        + .tag-h2 {
-
-        }
-      }
-
-      &.tag-h2 {
-
-        + .tag-h1 {
-          margin-top:10px;
-        }
-      }
     }
 
     a {
@@ -412,11 +307,6 @@ nav {
 
       &:hover { color: #999; }
     }
-
-    // .active {
-    //   border-right:solid 4px #39C;
-    //   padding-right:13px;
-    // }
   }
 }
 
@@ -448,24 +338,6 @@ body {
     h1 {
       white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
-    }
-  }
-
-  #banner {
-    width: 100%;
-
-    .downloads {
-        margin-right: 60px;
-      }
-
-    .fork {
-    }
-
-    #logo {
-      margin-right: 15px;
     }
   }
 
@@ -496,27 +368,11 @@ body {
       font-size: 32px;
       white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
     }
 
     p {
       font-size: 12px;
     }
-  }
-
-  #banner {
-    top: 80px;
-
-    .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-    position:fixed;
-    left:20px;
-
-      }
   }
 
   section {
@@ -547,9 +403,6 @@ body {
       font-size: 24px;
       white-space: nowrap;
       overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
     }
   }
   section {
