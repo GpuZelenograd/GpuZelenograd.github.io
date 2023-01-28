@@ -14,21 +14,21 @@ redirect_from:
 ---
 
 Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs. Download:
-<br/>
+<br>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
 ![Titan](photo/titan-scheme.png){: width="42%" style="float: right"}
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
-<br/>
+<br>
 Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti gpus. It can fix some  artifacting GPUs by flashing VBIOS that disable malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB is also supported
-<br/>
-<br/>
+<br>
+<br>
 [Changelog and misc downloads](#changelog)
-<br/>
-<br/>
+<br>
+<br>
 Thanks to all researchers for modded BIOSes, they were very helpful during development!
-<br/>
+<br>
 
 # User manual
 
