@@ -392,7 +392,7 @@ body {
   }
 }
 
-@media print, screen and (max-width: 480px) {
+@media print, screen and (max-width: 359px) {
 
   header{
     position: relative;
@@ -410,6 +410,14 @@ body {
   }
   big {
     display: block;
+  }
+  footer {
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    left:auto;
+    bottom:auto;
+    width:auto;
   }
 }
 
@@ -433,13 +441,3 @@ body {
   }
 }
 
-@media print, screen and (max-height: 480px) {
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left:auto;
-    bottom:auto;
-    width:auto;
-  }
-}
