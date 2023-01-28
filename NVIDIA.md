@@ -13,8 +13,8 @@ redirect_from:
   - /NVidia
 ---
 
-Old NVIDIA artifacts 2022.12 disables bad blocks in artifacting GPUs
-<a id="latest"><br/></a>
+Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs
+<br/>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
 ![Titan](photo/titan-scheme.png){: width="42%" style="float: right"}
@@ -27,7 +27,7 @@ Old NVIDIA artifacts utility works with Fermi, Kepler and GTX750Ti gpus. It can 
 [Changelog and misc downloads](#changelog)
 <br/>
 <br/>
-Thanks to all researchers of modded BIOSes, such files were very helpful during development!
+Thanks to all researchers for modded BIOSes, they were very helpful during development!
 <br/>
 
 # User manual
@@ -79,7 +79,7 @@ Many problematic GPUs can hang booting even during POST, before OS load. Some of
 
 ### <a id="changelog">Changelog and misc downloads</a>
 
-[Version 2022.12](#latest) improvements:
+[Version 2022.12](#top) improvements:
   * now works on Windows7 (Windows10 as well)
   * fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others
   * generating modded VBIOSes from a given file can be done without admin rights
