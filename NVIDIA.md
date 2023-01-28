@@ -13,7 +13,7 @@ redirect_from:
   - /NVidia
 ---
 
-Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs
+Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs. Download:
 <br/>
 
 ### [<big><big>**🗄️Windows 7-10 64-bit&nbsp;**</big></big> 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
@@ -21,7 +21,7 @@ Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs
 ### [<big><big>**🐧Linux&nbsp;**</big></big> 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br/>
-Old NVIDIA artifacts utility works with Fermi, Kepler and GTX750Ti gpus. It can fix some  artifacting GPUs by disabling malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB Kepler is also supported
+Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti gpus. It can fix some  artifacting GPUs by flashing VBIOS that disable malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB is also supported
 <br/>
 <br/>
 [Changelog and misc downloads](#changelog)
@@ -95,9 +95,9 @@ Some of faulty GPUS may hang even during POST and don't make it to safe mode. So
   * fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others
   * generating modded VBIOSes from a given file can be done without admin rights
 
-#### 2022.11 downloads
+#### Older 2022.11 downloads
   * [Windows <i>8</i>-10 64-bit 4MB zip, GTX 470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip)
   * [Linux 4MB tar.xz, GTX <i>645</i>-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz)
 
-#### Other
+#### Misc
   * [modified VBIOS variants for reference edition GTX Titan 6GB](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)

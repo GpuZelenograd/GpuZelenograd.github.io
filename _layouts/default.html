@@ -6,15 +6,15 @@
     {% endif %}
     <meta charset="utf-8">
 {% seo %}
-	<meta property="og:description" content="{{ page.pagedescription }}"/>
-	<meta property="og:image" content="https://gpuzelenograd.github.io/{{ page.previewimg }}"/>
+	<meta property="og:description" content="{{ page.pagedescription }}">
+	<meta property="og:image" content="https://gpuzelenograd.github.io/{{ page.previewimg }}">
     <link rel="icon" type="image/png" href="favicon128.png">
-	<style type="text/css">
+	<style>
 		{% capture include_to_scssify %}
 		  {% include style.scss %}
 		{% endcapture %}
 		{{ include_to_scssify | scssify }}
-	  </style>
+	</style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
   </head>
