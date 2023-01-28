@@ -52,8 +52,8 @@ Original VBIOS automatically got saved at this point, click "Reboot"
 
 
 ## Next flashes
-If there system boots fine and there are NO artifacts on the screen:
-* install NVIDIA driver compatible with the GPU, like 390/391.xx
+If the system boots fine and there are NO artifacts on the screen:
+* install compatible NVIDIA driver, like 390/391.xx
 * run any *short* benchmark
 * start the utility again, select "Activate more blocks and reboot"
 
