@@ -315,13 +315,6 @@ body {
   word-wrap:break-word;
 }
 
-@media print, screen and (max-width: 859px) {
-
-  section {
-    max-width: 600px;
-  }
-}
-
 @media print, screen and (max-width: 720px) {
   header {
     padding:20px 20px;
@@ -342,6 +335,8 @@ body {
     margin-top: 130px;
     margin-bottom: 0px;
     width: auto;
+    padding:20px 0;
+    border:1px solid #e5e5e5;    
   }
 
   header ul, header p.view {
@@ -373,14 +368,6 @@ body {
   }
   big {
     display: block;
-  }
-  footer {
-    text-align: center;
-    margin: 20px auto;
-    position: relative;
-    left:auto;
-    bottom:auto;
-    width:auto;
   }
 }
 
