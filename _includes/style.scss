@@ -275,7 +275,7 @@ section {
   max-width:768px;
   padding: 30px 0px 50px 0px;
   margin: auto;
-  margin-top: 190px;
+  margin-top: 130px;
   position:relative;
 }
 
@@ -288,7 +288,13 @@ body {
   word-wrap:break-word;
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 799px) {
+  .wrapper {
+    border:3px solid #e5e5e5;    
+  }
+}
+
+@media print, screen and (max-width: 599px) {
   header {
     padding:20px 20px;
     margin: 0;
@@ -305,7 +311,7 @@ body {
   }
 
   section {
-    margin-top: 130px;
+    margin-top: 100px;
     margin-bottom: 0px;
     width: auto;
   }
