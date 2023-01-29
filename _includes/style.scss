@@ -150,9 +150,13 @@ strong {
 }
 
 .wrapper {
-  width:auto;
+  max-width: 830px;
+  background: #fbfbfb;
   margin:0 auto;
   position:relative;
+  border-radius: 3px;
+  border: 1px solid #cbcbcb;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.09), inset 0px 0px 2px 2px rgba(255,255,255,.5), inset 0 0 5px 5px rgba(255,255,255,.4);
 }
 
 section img {
@@ -269,45 +273,14 @@ header {
 
 section {
   max-width:768px;
-  padding: 30px 30px 50px 30px;
+  padding: 30px 0px 50px 0px;
   margin: auto;
   margin-top: 190px;
   position:relative;
-  background: #fbfbfb;
-  border-radius: 3px;
-  border: 1px solid #cbcbcb;
-  box-shadow: 0px 1px 2px rgba(0,0,0,.09), inset 0px 0px 2px 2px rgba(255,255,255,.5), inset 0 0 5px 5px rgba(255,255,255,.4);
 }
 
 small {
   font-size:12px;
-}
-
-nav {
-  width: 230px;
-  position: fixed;
-  top: 220px;
-  left:50%;
-  margin-left:-580px;
-  text-align: right;
-
-  ul {
-    list-style: none;
-    list-style-image:none;
-    font-size: 14px;
-    line-height:24px;
-
-    li {
-      padding: 5px 0px;
-      line-height: 16px;
-    }
-
-    a {
-      color: #666;
-
-      &:hover { color: #999; }
-    }
-  }
 }
 
 body {
@@ -335,7 +308,9 @@ body {
     margin-top: 130px;
     margin-bottom: 0px;
     width: auto;
-    padding:20px 0;
+  }
+
+  .wrapper {
     border:1px solid #e5e5e5;    
   }
 
