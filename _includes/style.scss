@@ -289,7 +289,7 @@ body {
 @media print, screen and (max-width: 799px) {
   .wrapper {
     border:3px solid #fbfbfb;    
-    margin-top: 120px;
+    margin-top: 113px; /*reserve space for header lines wrap*/
   }
   header {
     padding:5px 5px;
