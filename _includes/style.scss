@@ -153,6 +153,7 @@ strong {
   max-width: 830px;
   background: #fbfbfb;
   margin:0 auto;
+  margin-top: 150px;
   position:relative;
   border-radius: 3px;
   border: 1px solid #cbcbcb;
@@ -273,7 +274,6 @@ section {
   max-width:768px;
   padding: 10px 0px 50px 0px;
   margin: auto;
-  margin-top: 150px;
   position:relative;
 }
 
@@ -289,8 +289,6 @@ body {
 @media print, screen and (max-width: 799px) {
   .wrapper {
     border:3px solid #fbfbfb;    
-  }
-  section {
     margin-top: 120px;
   }
   header {
@@ -328,7 +326,7 @@ body {
       font-size: 24px;
     }
   }
-  section {
+  .wrapper {
     margin-top: 5px;
   }
   big {
