@@ -190,7 +190,9 @@
 		var rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }
 		img.addEventListener('load', rm, false)
 		document.body.appendChild(img)
-		window.history.replaceState({}, '', window.location.pathname); //Remove search part for bookmarking
+		if (window.location.search) { //Remove search part for bookmarking, but only if it present
+			window.history.replaceState({}, '', window.location.pathname);
+		}
 	}
 
   on_load(function() {

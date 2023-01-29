@@ -3,7 +3,7 @@ pagelang: ru
 title: Old NVIDIA artifacts
 pagedescription: Утилита ремонта карт GTX470-780Ti
 previewimg: photo/titan-scheme.png
-redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIA?" + window.location.search.substring(1) + "_noredirect")
+redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIA" + window.location.search)
 redirect_from:
   - /nvidiaRU
   - /nVidiaRU
