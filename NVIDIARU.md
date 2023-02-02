@@ -3,7 +3,6 @@ pagelang: ru
 title: Old NVIDIA artifacts
 pagedescription: Утилита ремонта карт GTX470-780Ti
 previewimg: photo/titan-scheme.png
-canonical_url: https://gpuzelenograd.github.io/NVIDIARU
 redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIA" + window.location.search)
 redirect_from:
   - /nvidiaRU
