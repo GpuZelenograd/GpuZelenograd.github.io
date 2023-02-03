@@ -17,7 +17,7 @@ Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs. Downlo
 <br>
 
 ### [<big><big>**Windows 7-10 64-bit**</big></big>🗄️4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
-![Titan](photo/titan-scheme.png){: width="42%" style="float: right"}
+![Titan](photo/titan-scheme.png){: style="float: right; width: 42%;"}
 ### [<big><big>**Linux**</big></big>🐧4MB tar.xz, GTX645-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br>
