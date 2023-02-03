@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="{{ page.pagelang | default: "ru" }}">
   <head>
+    <meta charset="utf-8">
     {% if page.redir_js %}
     <script>{{ page.redir_js }}</script>
     {% endif %}
-    <meta charset="utf-8">
+    {% if page.hreflangs %}
+    {{ page.hreflangs }}
+    {% endif %}
 {% seo %}
 	<meta property="og:description" content="{{ page.pagedescription }}">
 	<meta property="og:image" content="https://gpuzelenograd.github.io/{{ page.previewimg }}">
