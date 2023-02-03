@@ -20,7 +20,7 @@ redirect_from:
   - /NvidiaRu
   - /NVidiaRu
 ---
-[&nbsp;&nbsp;&nbsp;🌐En](https://gpuzelenograd.github.io/NVIDIA?noredirecten){: style="float: right"}
+[`   🌐En`](https://gpuzelenograd.github.io/NVIDIA?noredirecten){: style="float: right"}
 Old NVIDIA artifacts **2022.12** отключает сбойные блоки GPU. Скачать:
 <br>
 
