@@ -3,7 +3,7 @@ pagelang: ru
 title: Old NVIDIA artifacts
 pagedescription: Утилита ремонта карт GTX470-780Ti
 previewimg: photo/titan-scheme.png
-redir_js: if (!/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIA" + window.location.search)
+redir_js: if (!/^RU|en-US/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIA" + window.location.search)
 redirect_from:
   - /nvidiaRU
   - /nVidiaRU
@@ -20,7 +20,7 @@ redirect_from:
   - /NvidiaRu
   - /NVidiaRu
 ---
-[🌐En](https://gpuzelenograd.github.io/NVIDIA?noredirecten){: style="float: right"}
+[&nbsp;&nbsp;&nbsp;🌐En](https://gpuzelenograd.github.io/NVIDIA?noredirecten){: style="float: right"}
 Old NVIDIA artifacts **2022.12** отключает сбойные блоки GPU. Скачать:
 <br>
 
