@@ -1,5 +1,5 @@
 repository: GpuZelenograd/GpuZelenograd.github.io
-name: GpuZelenograd
+title: GpuZelenograd
 theme: jekyll-theme-leap-day
 plugins:
   - jekyll-redirect-from
