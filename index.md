@@ -2,8 +2,8 @@
 lang: ru-RU
 pagelang2: ru
 title: Ремонт видеокарт в Зеленограде
-previewimg: photo/ThermalSolutions.jpg
-pagedescription: специализиуемся на ремонте видеокарт, берёмся за запутанные случаи
+image: photo/ThermalSolutions.jpg
+description: специализиуемся на ремонте видеокарт, берёмся за запутанные случаи
 ---
 ## Наши утилиты
 - [Old NVIDIA artifacts for GTX470-780Ti](https://gpuzelenograd.github.io/NVIDIARU?main)

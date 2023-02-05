@@ -1,7 +1,7 @@
 ---
 title: Old NVIDIA artifacts
-pagedescription: Tool to fix GTX470-780Ti GPUs
-previewimg: photo/titan-scheme.png
+description: Tool to fix GTX470-780Ti GPUs
+image: photo/titan-scheme.png
 redir_js: if (/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIARU" + window.location.search)
 hreflangs: <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIA" hreflang="x-default"/> <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIA" hreflang="en"/> <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIARU" hreflang="ru"/>
 redirect_from:
