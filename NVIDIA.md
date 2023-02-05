@@ -14,7 +14,7 @@ redirect_from:
   - /NVidia
 ---
 
-Old NVIDIA artifacts **2022.12** disables bad blocks in artifacting GPUs. Download:
+Old NVIDIA artifacts **2022.12** disables bad blocks to fix GPU artifacting. Download:
 <br>
 
 ### [<big><big>**Windows 7-10 64-bit**</big></big>🗄️4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
