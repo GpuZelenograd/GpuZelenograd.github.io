@@ -1,5 +1,4 @@
 ---
-pagelang: en-US
 title: Old NVIDIA artifacts
 pagedescription: Tool to fix GTX470-780Ti GPUs
 previewimg: photo/titan-scheme.png

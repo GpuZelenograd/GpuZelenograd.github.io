@@ -1,5 +1,6 @@
 ---
-pagelang: ru
+lang: ru-RU
+pagelang2: ru
 title: Ремонт видеокарт в Зеленограде
 previewimg: photo/ThermalSolutions.jpg
 pagedescription: специализиуемся на ремонте видеокарт, берёмся за запутанные случаи
