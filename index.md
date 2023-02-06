@@ -9,7 +9,7 @@ seo:
 ---
 [&nbsp;&nbsp;&nbsp;`🌐En`](https://gpuzelenograd.github.io/README?noredirectfm){: style="float: right"}
 ## Наши утилиты
-- [Old NVIDIA artifacts - GTX470-780Ti](https://gpuzelenograd.github.io/NVIDIARU?main)
+- [Old NVIDIA artifacts - GTX470-750/780Ti](https://gpuzelenograd.github.io/NVIDIARU?main)
 - [memtest_vulkan (open source)](https://github.com/GpuZelenograd/memtest_vulkan/releases)
 
 ## Наши ремонты видеокарт

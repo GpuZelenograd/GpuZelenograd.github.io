@@ -17,8 +17,8 @@ defaults:
     values:
       lang: en-US
       pagelang2: en
-      title: GpuZelenograd
-      description: list of our utilities and resources
+      title: Our resources
+      description: GpuZelenograd utilities and links
       seo:
         type: LocalBusiness
       redir_js: if (/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/" + window.location.search)
