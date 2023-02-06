@@ -13,7 +13,7 @@ include:
 defaults:
   -
     scope:
-      path: "README."
+      path: "README*"
     values:
       lang: en-US
       pagelang2: en
