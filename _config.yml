@@ -23,11 +23,11 @@ defaults:
         type: LocalBusiness
       redir_js: if (/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/" + window.location.search)
       redirect_from:
-      - /readme
-      - /Readme
-      - /READme
-      - /readMe
-      - /ReadMe
-      - /READMe
-      - /readME
-      - /ReadME
+        - /readme
+        - /Readme
+        - /READme
+        - /readMe
+        - /ReadMe
+        - /READMe
+        - /readME
+        - /ReadME
