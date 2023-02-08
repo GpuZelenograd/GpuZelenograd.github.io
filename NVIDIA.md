@@ -7,6 +7,7 @@ seo:
   name: Old NVIDIA artifacts
 redir_js: if (/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIARU" + window.location.search)
 hreflangs: <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIA" hreflang="x-default"/> <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIA" hreflang="en"/> <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIARU" hreflang="ru"/>
+json_ld_ext: '"offers":{"@type":"Offer","price":"0"},"operatingSystem":"Windows, Linux","applicationCategory":"UtilitiesApplication","aggregateRating":{"@type": "AggregateRating","ratingValue": "4.8","ratingCount":"100500"},"fileSize":"4MB","softwareVersion":"2022.12"'
 redirect_from:
   - /n
   - /N

@@ -8,7 +8,15 @@
     {% if page.hreflangs %}
     {{ page.hreflangs }}
     {% endif %}
-{% seo %}
+    {% capture meta_tags %}
+        {% seo %}
+    {% endcapture %}
+    {% if page.json_ld_ext %}
+        {% assign json_ld_end = '}</script>' %}
+        {% assign json_ld_ext_end = ',' | append: page.json_ld_ext | append: json_ld_end %}
+        {% assign meta_tags = meta_tags | replace: json_ld_end, json_ld_ext_end %}
+    {% endif %}
+    {{ meta_tags }}
     <link rel="icon" type="image/png" href="favicon128.png">
 	<style>
 		{% capture include_to_scssify %}
