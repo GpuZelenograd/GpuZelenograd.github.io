@@ -84,12 +84,9 @@ You can run GPU-Z and check your current "bus width" and "memory size"
 If modification succeeds, the GPU memory size and bus width reduces. For GPUs with only 4 memory chips the performance drop is significant, but for cards with a lot of chips the difference is quite small. The 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-specs/gigabyte-gtx-780-ti-ghz-edition.b2682) has a [~3700 average TimeSpy Graphics score](https://www.3dmark.com/search#advanced?test=spy%20P&cpuId=&gpuId=908&gpuCount=1&gpuType=ALL&deviceType=ALL&storageModel=ALL&memoryChannels=0&country=&scoreType=overallScore&hofMode=false&showInvalidResults=false&freeParams=&startDate=2017-01-01&endDate=2100-01-01&minGpuCoreClock=1150&maxGpuCoreClock=1340&minGpuMemClock=&maxGpuMemClock=&minCpuClock=&maxCpuClock=).
 
 Here are results for single modified card and a pair of modified cards in a SLI:
-<p style="column-count:2">
 
-[2.5GB 320bit 780Ti GHz Edition ![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)
-[SLI 2x 2.5GB 320bit 780Ti ![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
-
-</p>
+[2.5GB 320bit 780Ti GHz Edition ![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[SLI 2x 2.5GB 320bit 780Ti ![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
+{: style="column-count:2"}
 
 ### <a id="bootmode">Special boot mode</a>
 "Enable boot without driver" button just tunes built-in OS functionality to let you enter safe mode without video driver. To reverse it try one of this:
