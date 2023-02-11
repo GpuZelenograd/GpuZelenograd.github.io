@@ -85,6 +85,14 @@ Old NVIDIA artifacts **2022.12** отключает сбойные блоки GP
 
 ![r8](photo/r8.png)
 
+### Производительность
+При успешном восстановлении уменьшается объём и ширина шины видеопамяти. Для видеокарт с 4мя микросхемами видеопамяти это приводит к довольно сильному падению производительности, но при большом количестве микросхем замедление невелико. Стандратная 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-specs/gigabyte-gtx-780-ti-ghz-edition.b2682) показывает в тесте TimeSpy около [3700 Graphics score](https://www.3dmark.com/search#advanced?test=spy%20P&cpuId=&gpuId=908&gpuCount=1&gpuType=ALL&deviceType=ALL&storageModel=ALL&memoryChannels=0&country=&scoreType=overallScore&hofMode=false&showInvalidResults=false&freeParams=&startDate=2017-01-01&endDate=2100-01-01&minGpuCoreClock=1150&maxGpuCoreClock=1340&minGpuMemClock=&maxGpuMemClock=&minCpuClock=&maxCpuClock=).
+
+Для сравнения ниже представлены результаты TimeSpy восстановленной 780Ti с шиной 320bit и пары таких карт в режиме SLI:
+
+[**Одна** 780Ti 2.5GB GHz Edition![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[**SLI 2x**780Ti 2.5GB![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
+{: style="column-count:2;text-align: left;"}
+
 ### <a id="bootmode">Специальный режим загрузки</a>
 Кнопка «Включить загрузку без драйвера» просто изменяет встроенные настройки ОС. Режим можно переключить обратно в обычный несколькими способами:
 * автоматически на этапе завершения после окончания поиска VBIOS
