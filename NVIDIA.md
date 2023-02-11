@@ -86,7 +86,7 @@ If modification succeeds, the GPU memory size and bus width reduces. For GPUs wi
 Here are results for single modified card and a pair of modified cards in a SLI:
 
 [2.5GB 320bit 780Ti GHz Edition ![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[SLI 2x 2.5GB 320bit 780Ti ![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
-{: style="column-count:2"}
+{: style="column-count:2;text-align: left;"}
 
 ### <a id="bootmode">Special boot mode</a>
 "Enable boot without driver" button just tunes built-in OS functionality to let you enter safe mode without video driver. To reverse it try one of this:

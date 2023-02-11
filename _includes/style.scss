@@ -297,9 +297,6 @@ big {
     border:3px solid #fbfbfb;    
     margin-top: 113px; /*reserve space for header lines wrap*/
   }
-  p {
-    column-gap: 32px;
-  }
   
   header {
     padding:5px 5px;
@@ -342,6 +339,9 @@ big {
   big {
     display: block;
     white-space: inherit;
+  }
+  p {
+    column-count: unset !important;
   }
 }
 
