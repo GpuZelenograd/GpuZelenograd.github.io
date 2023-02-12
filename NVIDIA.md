@@ -116,4 +116,4 @@ Some of faulty GPUs may hang even during POST and don't make it to safe mode. So
 #### Misc
   * [modified VBIOS variants for reference edition GTX Titan 6GB](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
 
-[*Translations of this guide are welcome*](https://github.com/GpuZelenograd/GpuZelenograd.github.io/blob/master/NVIDIAtranslating){: text-align: right;"}
+[*Translations of this guide are welcome*](https://github.com/GpuZelenograd/GpuZelenograd.github.io/blob/master/NVIDIAtranslating){: style="text-align: right;"}
