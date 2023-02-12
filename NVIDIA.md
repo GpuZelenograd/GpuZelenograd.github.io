@@ -38,23 +38,23 @@ Thanks to all researchers for modded BIOSes, they were very helpful during devel
 
 Prepare your system for malfunctioning GPU, otherwise your system may hang during OS boot:  start the utility while faulty GPU is not plugged yet
 
-![e1](photo/e1.png)
+![e1](https://gpuzelenograd.github.io/photo/e1.png)
 
 * click "Enable boot without driver" ([special boot mode](#bootmode) where you can select between regular boot and safe mode without video driver)
 * follow instructions on your screen
 
-![e2](photo/e2.png)
+![e2](https://gpuzelenograd.github.io/photo/e2.png)
 
 if you can't boot your system with faulty GPU even in safe mode, then check [Troubleshooting](#troubleshootingsect)
 
 ## First flash
 Click "Flash testing VBIOS"
 
-![e3](photo/e3.png)
+![e3](https://gpuzelenograd.github.io/photo/e3.png)
 
 Original VBIOS automatically got saved at this point, click "Reboot"
 
-![e4](photo/e4.png)
+![e4](https://gpuzelenograd.github.io/photo/e4.png)
 
 
 ## Next flashes
@@ -63,29 +63,29 @@ If the system boots fine and there are NO artifacts on the screen:
 * run any *short* benchmark
 * start the utility again, select "Activate more blocks and reboot"
 
-![e5](photo/e5.png)
+![e5](https://gpuzelenograd.github.io/photo/e5.png)
 
 If there are artifacts or boot/benchmark problems – select "Flash fixing VBIOS and reboot"
 
-![e6](photo/e6.png)
+![e6](https://gpuzelenograd.github.io/photo/e6.png)
 
 Continue until the utility will find an optimal and stable VBIOS. If your GPU still shows some artifacts, then it can not be fixed by this utility.
 
 ## Last stage
 If the utility have found optimal and stable VBIOS and GPU have completed any benchmark – start the utility and select "Complete configuring", this will save modified VBIOS and return your system to normal boot mode
 
-![e7](photo/e7.png)
+![e7](https://gpuzelenograd.github.io/photo/e7.png)
 
 You can run GPU-Z and check your current "bus width" and "memory size"
 
-![e8](photo/e8.png)
+![e8](https://gpuzelenograd.github.io/photo/e8.png)
 
 ### Performance
 If modification succeeds, the GPU memory size and bus width reduces. For GPUs with only 4 memory chips the performance drop is significant, but for cards with a lot of chips the difference is quite small.
 
 The standard 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-specs/gigabyte-gtx-780-ti-ghz-edition.b2682) on average achieves [3700 Graphics score](https://www.3dmark.com/search#advanced?test=spy%20P&cpuId=&gpuId=908&gpuCount=1&gpuType=ALL&deviceType=ALL&storageModel=ALL&memoryChannels=0&country=&scoreType=overallScore&hofMode=false&showInvalidResults=false&freeParams=&startDate=2017-01-01&endDate=2100-01-01&minGpuCoreClock=1150&maxGpuCoreClock=1340&minGpuMemClock=&maxGpuMemClock=&minCpuClock=&maxCpuClock=) in the TimeSpy benchmark. And here are results for fixed 780Ti with 320bit bus left, and a SLIed pair of such cards:
 
-[**Single** 780Ti 2.5GB GHz Edition![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[**SLI 2×**780Ti 2.5GB![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
+[**Single** 780Ti 2.5GB GHz Edition![result 3493](https://gpuzelenograd.github.io/photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[**SLI 2×**780Ti 2.5GB![result 6111](https://gpuzelenograd.github.io/photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
 {: style="column-count:2;text-align: left;"}
 
 ### <a id="bootmode">Special boot mode</a>
@@ -115,3 +115,5 @@ Some of faulty GPUs may hang even during POST and don't make it to safe mode. So
 
 #### Misc
   * [modified VBIOS variants for reference edition GTX Titan 6GB](https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip)
+
+[*Translations of this guide are welcome*](https://github.com/GpuZelenograd/GpuZelenograd.github.io/blob/master/NVIDIAtranslating){: text-align: right;"}
