@@ -25,7 +25,7 @@ Old NVIDIA artifacts **2022.12** disables bad blocks to fix GPU artifacting. Dow
 ### [<big><big>**Linux**</big></big>🐧4MB tar.xz, GTX645-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br>
-Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti gpus. It can fix some  artifacting GPUs by flashing VBIOS that disable malfunctioning GPU parts. Fixed GPUS can be used in any computer. GTX Titan 6GB is also supported
+Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti GPUs. It can fix some artifacting GPUs by flashing VBIOS that disable malfunctioning GPU parts. Fixed GPUs can be used in any computer. GTX Titan 6GB is also supported
 <br>
 <br>
 [Changelog and misc downloads](#changelog)
@@ -36,7 +36,7 @@ Thanks to all researchers for modded BIOSes, they were very helpful during devel
 
 ## User manual
 
-Prepare your system for malfunctioning GPU otherwise your system may hang during OS boot:  start the utility while faulty GPU is not plugged yet
+Prepare your system for malfunctioning GPU, otherwise your system may hang during OS boot:  start the utility while faulty GPU is not plugged yet
 
 ![e1](photo/e1.png)
 
@@ -65,14 +65,14 @@ If the system boots fine and there are NO artifacts on the screen:
 
 ![e5](photo/e5.png)
 
-If there are artifacts or boot/benchmark problems - select "Flash fixing VBIOS and reboot"
+If there are artifacts or boot/benchmark problems – select "Flash fixing VBIOS and reboot"
 
 ![e6](photo/e6.png)
 
-Continue until the utility will find an optimal and stable VBIOS. If your GPU still shows some artifacts then it can not be fixed by this utility.
+Continue until the utility will find an optimal and stable VBIOS. If your GPU still shows some artifacts, then it can not be fixed by this utility.
 
 ## Last stage
-If the utility have found optimal and stable VBIOS and GPU have completed any benchmark - start the utility and select "Complete configuring", this will save modified VBIOS and return your system to normal boot mode
+If the utility have found optimal and stable VBIOS and GPU have completed any benchmark – start the utility and select "Complete configuring", this will save modified VBIOS and return your system to normal boot mode
 
 ![e7](photo/e7.png)
 
@@ -85,21 +85,21 @@ If modification succeeds, the GPU memory size and bus width reduces. For GPUs wi
 
 The standard 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-specs/gigabyte-gtx-780-ti-ghz-edition.b2682) on average achieves [3700 Graphics score](https://www.3dmark.com/search#advanced?test=spy%20P&cpuId=&gpuId=908&gpuCount=1&gpuType=ALL&deviceType=ALL&storageModel=ALL&memoryChannels=0&country=&scoreType=overallScore&hofMode=false&showInvalidResults=false&freeParams=&startDate=2017-01-01&endDate=2100-01-01&minGpuCoreClock=1150&maxGpuCoreClock=1340&minGpuMemClock=&maxGpuMemClock=&minCpuClock=&maxCpuClock=) in the TimeSpy benchmark. And here are results for fixed 780Ti with 320bit bus left, and a SLIed pair of such cards:
 
-[**Single** 780Ti 2.5GB GHz Edition![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[**SLI 2x**780Ti 2.5GB![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
+[**Single** 780Ti 2.5GB GHz Edition![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[**SLI 2×**780Ti 2.5GB![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
 {: style="column-count:2;text-align: left;"}
 
 ### <a id="bootmode">Special boot mode</a>
-"Enable boot without driver" button just tunes built-in OS functionality to let you enter safe mode without video driver. To reverse it try one of this:
+"Enable boot without driver" button just tunes built-in OS functionality to let you enter safe mode without video driver. To reverse it, try one of this:
 * successfully complete VBIOS modification (will be applied automatically)
 * manually via the "Disable boot without driver" button
 * manually by launching as Administrator `restore_boot_mode` tool from detail subfolder
 * manually by running as Administrator `bcdedit /set "{bootmgr}" displaybootmenu no` (for Linux: `systemctl set-default graphical.target`)
 
 ### <a id="troubleshootingsect">Troubleshooting</a>
-Some of faulty GPUS may hang even during POST and don't make it to safe mode. Some of them *can* be fixed, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. Try following:
+Some of faulty GPUs may hang even during POST and don't make it to safe mode. Some of them *can* be fixed, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. Try following:
 * enable or disable CSM-compatible-with-non-EFI mode in motherboard BIOS
 * enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS and attach display to the motherboard
-* use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU and plug the faulty card in another slot.
+* use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU, and plug the faulty card in another slot.
 
 
 ### <a id="changelog">Changelog and misc downloads</a>

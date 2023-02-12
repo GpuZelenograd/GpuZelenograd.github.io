@@ -57,7 +57,7 @@ Old NVIDIA artifacts **2022.12** отключает сбойные блоки GP
 Если при подключенной проблемной карте не удаётся загрузить ОС даже без драйвера  - перейдите к разделу [решение проблем](#troubleshootingsect)
 
 ## Этап1 - первая прошивка
-При первом запуске с воcстанавливаемой картой выполняем тестовую прошивку VBIOS
+При первом запуске с восстанавливаемой картой выполняем тестовую прошивку VBIOS
 
 ![r3](photo/r3.png)
 
@@ -74,7 +74,7 @@ Old NVIDIA artifacts **2022.12** отключает сбойные блоки GP
 ![r5](photo/r5.png)
 ![r6](photo/r6.png)
 
-После нескольких перезагрузок утилита придёт к финальному решению - предложит завершить настройку на найденном оптимальном варианте, или если карта попрежнему не работает - сообщит что проблема не может быть решена прошивкой. В последнем случае остаётся только выполнить откат VBIOS к исходному соответствующей кнопкой, завершить работу и отключить карту.
+После нескольких перезагрузок утилита придёт к финальному решению - предложит завершить настройку на найденном оптимальном варианте, или если карта по-прежнему не работает - сообщит что проблема не может быть решена прошивкой. В последнем случае остаётся только выполнить откат VBIOS к исходному соответствующей кнопкой, завершить работу и отключить карту.
 
 ## Завершение
 Если найден оптимальный вариант прошивки, который работает с драйвером и проходит тест - выбираем "завершить настройку".
@@ -88,9 +88,9 @@ Old NVIDIA artifacts **2022.12** отключает сбойные блоки GP
 ### Производительность
 При успешном восстановлении уменьшается объём и ширина шины видеопамяти. Для видеокарт с 4мя микросхемами видеопамяти это приводит к довольно сильному падению производительности, но при большом количестве микросхем замедление невелико.
 
-Стандратная 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-specs/gigabyte-gtx-780-ti-ghz-edition.b2682) показывает около [3700 Graphics score](https://www.3dmark.com/search#advanced?test=spy%20P&cpuId=&gpuId=908&gpuCount=1&gpuType=ALL&deviceType=ALL&storageModel=ALL&memoryChannels=0&country=&scoreType=overallScore&hofMode=false&showInvalidResults=false&freeParams=&startDate=2017-01-01&endDate=2100-01-01&minGpuCoreClock=1150&maxGpuCoreClock=1340&minGpuMemClock=&maxGpuMemClock=&minCpuClock=&maxCpuClock=) в тесте TimeSpy. Для сравнения ниже представлены результаты восстановленной 780Ti с шиной 320bit и пары таких карт в режиме SLI:
+Стандартная 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-specs/gigabyte-gtx-780-ti-ghz-edition.b2682) показывает около [3700 Graphics score](https://www.3dmark.com/search#advanced?test=spy%20P&cpuId=&gpuId=908&gpuCount=1&gpuType=ALL&deviceType=ALL&storageModel=ALL&memoryChannels=0&country=&scoreType=overallScore&hofMode=false&showInvalidResults=false&freeParams=&startDate=2017-01-01&endDate=2100-01-01&minGpuCoreClock=1150&maxGpuCoreClock=1340&minGpuMemClock=&maxGpuMemClock=&minCpuClock=&maxCpuClock=) в тесте TimeSpy. Для сравнения ниже представлены результаты восстановленной 780Ti с шиной 320bit и пары таких карт в режиме SLI:
 
-[**Одна** 780Ti 2.5GB GHz Edition![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[**SLI 2x**780Ti 2.5GB![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
+[**Одна** 780Ti 2.5GB GHz Edition![result 3493](photo/780ti-ghz-3dmarkpreview.png)](https://www.3dmark.com/3dm/88862792)[**SLI 2×**780Ti 2.5GB![result 6111](photo/780ti-sli-3dmarkpreview.png)](https://www.3dmark.com/3dm/88861601)
 {: style="column-count:2;text-align: left;"}
 
 ### <a id="bootmode">Специальный режим загрузки</a>
@@ -104,7 +104,7 @@ Old NVIDIA artifacts **2022.12** отключает сбойные блоки GP
 Некоторые проблемные видеокарты могут зависать при загрузке даже во время POST, до загрузки ОС. Часть из таких карт также можно исправить, но для загрузки могут потребоваться различные способы, позволяющие загрузить ОС и выполнить прошивку утилитой «Old NVIDIA artifacts». Попробуйте следующее:
 * включить/отключить CSM-compatible-with-non-EFI режим в BIOS материнской платы
 * включить «Integrated GPU» или «iGPU Multi-Monitor» в BIOS материнской платы и подключите дисплей к материнской плате
-* использовать две дискретных видеокарты: вставьте в ближайший к процессору слот PCIe работающаю видеокарту с подключенным дисплеем, а проблемную карту — в другой слот.
+* использовать две дискретных видеокарты: вставьте в ближайший к процессору слот PCIe работающую видеокарту с подключенным дисплеем, а проблемную карту — в другой слот.
 
 ### <a id="changelog">Список изменений и прошлые версии</a>
 
