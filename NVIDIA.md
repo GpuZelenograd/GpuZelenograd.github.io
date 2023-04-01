@@ -97,8 +97,8 @@ The standard 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-spec
 
 ### <a id="troubleshootingsect">Troubleshooting</a>
 Some of faulty GPUs may hang even during POST and don't make it to safe mode. Some of them *can* be fixed, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. Try following:
-* enable or disable CSM-compatible-with-non-EFI mode in motherboard BIOS
-* enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS and attach display to the motherboard
+* boot with problematic GPU unplugged and enable/disable "CSM compatible" (non-EFI) mode in motherboard BIOS. Save settings, power off and plug the GPU again
+* boot with problematic GPU unplugged and enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS. Save settings, power off and plug the GPU again, but leave the display attached to the motherboard
 * use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU, and plug the faulty card in another slot.
 
 
