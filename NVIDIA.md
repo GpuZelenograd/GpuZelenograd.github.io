@@ -16,7 +16,7 @@ redirect_from:
   - /Nvidia
   - /NVidia
 ---
-
+[&nbsp;&nbsp;&nbsp;`🌐中文`](https://www.chinafix.com/thread-1335463-1-1.html){: style="float: right"}
 Old NVIDIA artifacts **2022.12** disables bad blocks to fix GPU artifacting. Download:
 <br>
 
