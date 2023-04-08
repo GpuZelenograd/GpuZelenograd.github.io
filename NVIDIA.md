@@ -96,7 +96,7 @@ The standard 3GB 384bit [780Ti GHz Edition](https://www.techpowerup.com/gpu-spec
 * manually by running as Administrator `bcdedit /set "{bootmgr}" displaybootmenu no` (for Linux: `systemctl set-default graphical.target`)
 
 ### <a id="troubleshootingsect">Troubleshooting</a>
-Some of faulty GPUs may hang even during POST and don't make it to safe mode. Some of them *can* be fixed, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. Try following:
+Some of faulty GPUs may hang even during POST and don't make it to safe mode. Part of them *can* be fixed, but may require several workarounds to be able to boot the OS and be flashed with the "Old NVIDIA artifacts" tool. On some computers, after 1 minute of a black screen, the monitor will turn on and the system will continue to boot. If it doesn't, try the following options:
 * boot with problematic GPU unplugged and enable/disable "CSM compatible" (non-EFI) mode in motherboard BIOS. Save settings, power off and plug the GPU again
 * boot with problematic GPU unplugged and enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS. Save settings, power off and plug the GPU again, but leave the display attached to the motherboard
 * use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU, and plug the faulty card in another slot.
