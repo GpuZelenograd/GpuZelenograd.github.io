@@ -1,6 +1,6 @@
 ---
 title: Old NVIDIA artifacts
-description: Expert non-automated mode
+description: GTX470-780 VBIOS expert non-automated mode
 seo:
   type: SoftwareApplication
   name: Expert mode - Old NVIDIA artifacts
