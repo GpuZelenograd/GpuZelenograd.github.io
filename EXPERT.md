@@ -15,8 +15,8 @@ This page describes the non-automated mode of the "Old NVIDIA artifacts" utility
 The non-automated mode performs generating modified variants of the given VBIOS file without flashing or any other communication with real hardware. It is a bit more time-consuming and mostly intended to avoid running the utility on a real hardware with problematic GPU installed - security reasons, 32-bit or outdated OS, etc. Here are the steps to use non-automated mode:
 
 * Use any source for getting the original VBIOS of your problematic GPU as a file. You can use NVFlash, hardware programmer for 3.3V SPI or just [find the VBIOS on TechPowerUp](https://www.techpowerup.com/vgabios/?architecture=NVIDIA&interface=PCI-E&memType=GDDR5)
-* Run the "Old NVIDIA artifacts" utility in any 64-bit environment, including a restricted virtual machine. The original VBIOS file should be accessible to it
- * for Linux use non-root account inside desktop environment providing XDG Desktop Portal file dialogs.
+* Run the "Old NVIDIA artifacts" utility in a 64-bit environment; even a restricted virtual machine would be fine, since there is really no any requirements apart from access to the original VBIOS file.
+  * for Linux use non-root account inside desktop environment providing XDG Desktop Portal file dialogs
 * There is NO need to allow admin rights for non-automated mode:
   * for Windows, click "No" in elevation confirmation dialog
   * for Linux, press Enter several times instead of entering password on sudo prompt
@@ -27,5 +27,6 @@ The non-automated mode performs generating modified variants of the given VBIOS 
   * You may use hardware programmer for 3.3V SPI if you prefer
 * Flash VBIOS variants with different channels disabled - one of them may help your GPU!
 
-Most of the mentioned steps are pictured below:
+Most of the mentioned steps are pictured below
 ![ExpertSteps](photo/GenerateVBIOSVariants.png)
+{: style="text-align: center;"}
