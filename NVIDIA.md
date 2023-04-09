@@ -35,6 +35,7 @@ Thanks to all researchers for modded BIOSes, they were very helpful during devel
 <br>
 
 ## User manual
+The steps below represent a typical use of the utility, and due to the semi-automatic flashing, it takes only ~15 minutes. For experts, there is a [non-automated mode for VBIOS modification](https://gpuzelenograd.github.io/EXPERT)
 
 Prepare your system for malfunctioning GPU, otherwise your system may hang during OS boot:  start the utility while faulty GPU is not plugged yet
 
