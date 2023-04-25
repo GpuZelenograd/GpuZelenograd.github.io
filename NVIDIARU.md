@@ -30,7 +30,7 @@ redirect_from:
 Old NVIDIA artifacts **2022.12** отключает сбойные блоки GPU. Скачать:
 <br>
 
-### [<big><big>**Windows 7-10 64-bit**</big></big>🗄️4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
+### [<big><big>**Windows 7-11 64-bit**</big></big>🗄️4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
 ![Titan](photo/titan-scheme.png){: style="float: right; width: 42%;"}
 ### [<big><big>**Linux**</big></big>🐧4MB tar.xz, GTX645-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
@@ -111,7 +111,7 @@ Old NVIDIA artifacts **2022.12** отключает сбойные блоки GP
 ### <a id="changelog">Список изменений и прошлые версии</a>
 
 Улучшения в [версии 2022.12](#top):
-  * теперь утилита работает в Windows 7 наравне с Windows 10
+  * теперь утилита работает в Windows 7 наравне с Windows 10-11
   * исправлена прошиваемость GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II и некоторых других
   * создание вариаций VBIOS из указанного файла может производиться без прав администратора
 

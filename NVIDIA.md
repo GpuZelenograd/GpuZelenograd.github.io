@@ -20,7 +20,7 @@ redirect_from:
 Old NVIDIA artifacts **2022.12** disables bad blocks to fix GPU artifacting. Download:
 <br>
 
-### [<big><big>**Windows 7-10 64-bit**</big></big>🗄️4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
+### [<big><big>**Windows 7-11 64-bit**</big></big>🗄️4MB zip, GTX470-780Ti](https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip)
 ![Titan](photo/titan-scheme.png){: style="float: right; width: 42%;"}
 ### [<big><big>**Linux**</big></big>🐧4MB tar.xz, GTX645-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
@@ -106,7 +106,7 @@ Some of faulty GPUs may hang even during POST and don't make it to safe mode. Pa
 ### <a id="changelog">Changelog and misc downloads</a>
 
 [Version 2022.12](#top) improvements:
-  * now works on Windows7 (Windows10 as well)
+  * now works on Windows7 (Windows10-11 as well)
   * fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others
   * generating modded VBIOSes from a given file can be done without admin rights
 
