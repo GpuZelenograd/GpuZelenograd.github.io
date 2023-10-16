@@ -25,7 +25,7 @@ Old NVIDIA artifacts **2022.12** disables bad blocks to fix GPU artifacting. Dow
 ### [<big><big>**Linux**</big></big>🐧4MB tar.xz, GTX645-780Ti](https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz)
 
 <br>
-Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti GPUs. It can fix some artifacting GPUs by flashing VBIOS that disable malfunctioning GPU parts. Fixed GPUs can be used in any computer. GTX Titan 6GB is also supported
+Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti GPUs. It can fix some artifacting/Code 43 GPUs by flashing VBIOS that disable malfunctioning GPU parts. Fixed GPUs can be used in any computer. GTX Titan 6GB is also supported
 <br>
 <br>
 [Changelog and misc downloads](#changelog)
