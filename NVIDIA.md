@@ -102,6 +102,10 @@ Some of faulty GPUs may hang even during POST and don't make it to safe mode. Pa
 * boot with problematic GPU unplugged and enable "Integrated GPU" or "iGPU Multi-Monitor" in motherboard BIOS. Save settings, power off and plug the GPU again, but leave the display attached to the motherboard
 * use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU, and plug the faulty card in another slot.
 
+Several Asus models report `Error: Selected GPU doesn't support flashing modified VBIOS`. For part of them, this can be resolved from console:
+* Open command line window as Administrator
+* `cd` to the "detail" subfolder with "nvflash" executable
+* run command to make VBIOS writable: `nvflash --protectoff`
 
 ### <a id="changelog">Changelog and misc downloads</a>
 
