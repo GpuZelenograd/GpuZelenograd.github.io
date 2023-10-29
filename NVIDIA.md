@@ -107,6 +107,8 @@ Several Asus models report `Error: Selected GPU doesn't support flashing modifie
 * `cd` to the "detail" subfolder with "nvflash" executable
 * run command to make VBIOS writable: `nvflash --protectoff`
 
+Older GPU models like Fermi-based GTX470-590 and [Kepler-based Grid](https://gpuzelenograd.github.io/photo/GridK2-Fixed.png) cards uses older NVIDIA 3xx drivers and are supported only by Windows version, not the Linux one.
+
 ### <a id="changelog">Changelog and misc downloads</a>
 
 [Version 2022.12](#top) improvements:

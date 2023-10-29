@@ -113,6 +113,8 @@ Old NVIDIA artifacts **2022.12** отключает сбойные блоки GP
 * Выполните `cd` в подпапку "detail", содержающую исполняемый файл "nvflash"
 * Запустите команду разрешения записи VBIOS: `nvflash --protectoff`
 
+Старые модели карт - GTX470-590 поколения Fermi и [карты Grid поколения Kepler](https://gpuzelenograd.github.io/photo/GridK2-Fixed.png) - используют старые драйвера NVIDIA 3xx и поддерживаются в Windows-версиии приложения, но не в Linux-версии.
+
 ### <a id="changelog">Список изменений и прошлые версии</a>
 
 Улучшения в [версии 2022.12](#top):
