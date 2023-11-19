@@ -30,7 +30,8 @@ Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti GPUs. It can fix
 <br>
 [Changelog and misc downloads](#changelog)
 <br>
-<br>
+Discussion area: [Reddit](https://www.reddit.com/r/GPURepair/comments/11bzn63/nvidia_470780_vbios_mod_fix_artifactscode_43_by/)
+<br><br>
 Thanks to all researchers for modded BIOSes, they were very helpful during development!
 <br>
 
