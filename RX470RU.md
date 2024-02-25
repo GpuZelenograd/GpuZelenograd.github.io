@@ -14,7 +14,7 @@ redirect_from:
 # Подбор подходящего VBIOS для RX470-580
 Данные заметки представлены в ознакомительных целях. Мы не оказываем услуги подбора VBIOS и не принимаем карты RX470-580 в ремонт.
 
-Наиболе актуальная версия публикуется GpuZelenograd в [https://gpuzelenograd.github.io/RX470RU](https://gpuzelenograd.github.io/RX470RU)
+Это текст от 2024.02; обновления - если они будут - опубликуется GpuZelenograd в [https://gpuzelenograd.github.io/RX470RU](https://gpuzelenograd.github.io/RX470RU). Выражаю благодарность всем коллегам по цеху, без вашей информации этот список был бы многократно меньше.
 
 ### На что обращать внимание при выборе VBIOS на TechPowerup
 
@@ -200,7 +200,9 @@ Sapphire 590 **2100Mhz** 8GB (E366)
 * 185W H5GQ8H24MJR - 113-4E3661U-X6I 366U6HYU.X6I
 * 185W Samsung-B - 113-4E3661U-X6M 366U6S0U.X6M
 
-#### E382 - reference 570 с турбиной?
+#### E382 - по видковыходам как reference 570 с турбиной, но ШИМ up950*4*
+(единственная модель в этом списке с ШИМ up9504)
+* 113-3E3820PC Samsung-B 1750Mhz (https://www.techpowerup.com/vgabios/223204/223204)[https://www.techpowerup.com/vgabios/223204/223204]
 
 #### E387, 8pin сверху, IR3567B 4phase
 существует текстолит под quad bios
@@ -280,6 +282,8 @@ E388 - [470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог
 * 570-mic8g.bi - 125W micronA 1750. Fan 1500RPM by default. 6phase ir3567B activates
 * rx58mt8gf2   - 145W micronA 1244/1750, rx580  -dont boot on ir3567B
 * MIC400.BIN   - 120W micronA - no ir3567B phase activatin
+
+Активная практика, соответствующая составления данного мануала была звершена ~ на появлений вариаций с ШИМ up9504, поэтому более свежие китайские изобретения здесь не отражены.
 
 ## device ids из inf-файлов (пока не структурировано)
 ```
