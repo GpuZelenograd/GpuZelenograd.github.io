@@ -53,28 +53,28 @@ redirect_from:
 ### Только по subvendor
 По subvendor id (нужное значение гуглится по скриншотам GPU-Z) - например для XFX=1682. Ищем в 3 вариациях, подставляя это код в URL
 
- * Официальные Биосы techpowerup: https://www.techpowerup.com/vgabios/?did=1002-67DF-1682-
- * Непроверенные биосы: https://www.techpowerup.com/vgabios/?architecture=Uploads&did=1002-67DF-1682-
- * Непроверенные биосы на ребрендинг (580 2048SP и 590 GME): https://www.techpowerup.com/vgabios/?architecture=Uploads&did=1002-6FDF-1682-
+ * [Официальные Биосы techpowerup: https://www.techpowerup.com/vgabios/?did=1002-67DF-1682-](https://www.techpowerup.com/vgabios/?did=1002-67DF-1682-)
+ * [Непроверенные биосы: https://www.techpowerup.com/vgabios/?architecture=Uploads&did=1002-67DF-1682-](https://www.techpowerup.com/vgabios/?architecture=Uploads&did=1002-67DF-1682-)
+ * [Непроверенные биосы на ребрендинг (580 2048SP и 590 GME): https://www.techpowerup.com/vgabios/?architecture=Uploads&did=1002-6FDF-1682-](https://www.techpowerup.com/vgabios/?architecture=Uploads&did=1002-6FDF-1682-)
 
 Однако, многие VBIOS используют subvendor id=1002 (код AMD) что не позволяет найти VBIOS по subvendor
 
 ### По поддерживаемой памяти и частоте
 
 Тут можно искать через google и применять дополнительную фильтрацию. Вот например запрос только официальных VBIOS под микрон B-die на частоту 1750Mhz с исключением биосов с автодетектом памяти (чтоб нашлись только те где один вариант без автодетекта)
-`67DF MT51J256M32HFB -autodetect -unverified "1750 MHz Temperature" site:techpowerup.com` https://www.google.com/search?filter=0&q=67DF+MT51J256M32HFB+-autodetect+-unverified+%221750+MHz+Temperature%22+site%3Atechpowerup.com
+`67DF MT51J256M32HFB -autodetect -unverified "1750 MHz Temperature" site:techpowerup.com` [ссылка-пример](https://www.google.com/search?filter=0&q=67DF+MT51J256M32HFB+-autodetect+-unverified+%221750+MHz+Temperature%22+site%3Atechpowerup.com)
 
 А вот под Samsung FС на картах Sapphire (код subvendor 1DA2) на частоту 2000 Mhz:
-`67DF 1DA2 K4G80325FC "2000 MHz Temperature" site:techpowerup.com` https://www.google.com/search?filter=0&q=67DF+1DA2+K4G80325FC+%222000+MHz+Temperature%22+site%3Atechpowerup.com
+`67DF 1DA2 K4G80325FC "2000 MHz Temperature" site:techpowerup.com` [ссылка-пример](https://www.google.com/search?filter=0&q=67DF+1DA2+K4G80325FC+%222000+MHz+Temperature%22+site%3Atechpowerup.com)
 
 ### По уникальному идентификатору (у многих вендоров начинается на 113)
 В списках по производителям ниже многие VBIOS представлены просто их идентификатором без ссылки. Чтоб скачать такой биос опять же используем google 
 
-`"113-D0090101-100" -unverified site:techpowerup.com` https://www.google.com/search?filter=0&q=%22113-D0090101-100%22+-unverified+site%3Atechpowerup.com
+`"113-D0090101-100" -unverified site:techpowerup.com` [ссылка-пример](https://www.google.com/search?filter=0&q=%22113-D0090101-100%22+-unverified+site%3Atechpowerup.com)
 
 Если среди официальных не нашлось - убираем фильтрацию по unverified.
 
-`"GV-RX570GAMING-8GD/FH0/0A9D" site:techpowerup.com` https://www.google.com/search?filter=0&q=%22GV-RX570GAMING-8GD%2FFH0%2F0A9D%22+site%3Atechpowerup.com
+`"GV-RX570GAMING-8GD/FH0/0A9D" site:techpowerup.com` [ссылка-пример](https://www.google.com/search?filter=0&q=%22GV-RX570GAMING-8GD%2FFH0%2F0A9D%22+site%3Atechpowerup.com)
 
 # Нюансы по производитлям карт - ШИМы и видеовыходы
 
@@ -92,11 +92,11 @@ redirect_from:
 ## Asus
 На всех картах имеет уникальное сочетание ШИМа и видеовыходов, которое не встречается у других производителей. Соответственно не пытайтесь использовать VBIOS Asus для других производителей, и наоборот.
 
-Большинство нужных VBIOS представлено тут https://www.techpowerup.com/vgabios/?did=1002-67DF-1043--
+[Большинство нужных VBIOS ASUS представлено тут](https://www.techpowerup.com/vgabios/?did=1002-67DF-1043--)
 
 #### карты Expedition/LED на шимке ASP1106 
 Под карты Expedition/LED на шимке ASP1106 и память Samsung FB идёт вот этот VBIOS
-67DFHB.15.50.2.1.AS56 https://www.techpowerup.com/vgabios/206012/206012
+[67DFHB.15.50.2.1.AS56](https://www.techpowerup.com/vgabios/206012/206012)
 
 Также он является диагностическим - у него пониженные требования к ШИМ-контроллеру для старта и некоторые платы с неисправными ШИМ-контроллерами других моделей, зависающие на инициализации - с ним дают картинку в windows через некоторые видеовыходы;
 это позволяет сделать предположение об исправности чипа; полноценно работать не будет, т.к. ШИМка всё же не та
@@ -135,7 +135,7 @@ Sapphire 470D(?) 1650Mhz 8GB (E350), NCP81022 4-phase
 * 85W Samsung 113-350P58G
 
 #### E353, 8pin сверху, NCP81022 4-phase DrMos
-бывает quad https://www.techpowerup.com/forums/attachments/img_20210202_232058-jpg.186701/
+бывает quad
 
 Sapphire 470 nitro 1750Mhz 8GB (E353) + подходит под pulse rx570
 * 128W H5GQ8H24MJR - 113-WE353GU-M7F 353P06HU.M7F
@@ -199,7 +199,7 @@ Sapphire 590 **2100Mhz** 8GB (E366)
 #### E382 - reference 570 с турбиной?
 
 #### E387, 8pin сверху, IR3567B 4phase
-существует текстолит под quad bios https://www.kitguru.net/components/graphic-cards/dominic-moass/sapphire-rx-580-comparison-pulse-vs-nitro/2/
+существует текстолит под quad bios
 
 Sapphire 590 Pulse 2000Mhz 8GB (E387)
 * 175W Samsung-B - 113-5E3874U-S4R 387U6S0U.S4R
@@ -214,13 +214,13 @@ Sapphire 570 Pulse 1750Mhz 8GB (E387)
 * 138W Micron-B - 113-2E3870U-O4J 387L6MBU.O4J
 
 Возможно её VBIOS 387E:
-* 122W, 1750Mhz Samsung-B/**H5GC8H24MJR** 113-WE3874U.M3E 387P6SHU.M3E (возможно есть более новый 387P6SHU.M4E)
-* 75W(silent mode 1000Mhz), 1750Mhz Samsung-B/**H5GC8H24MJR** 113-WE3874U.M5E 387P6SHU.M5E
+* 122W, 1750Mhz Samsung-B/H5GC8H24MJR 113-WE3874U.M3E 387P6SHU.M3E (возможно есть более новый 387P6SHU.M4E)
+* 75W(silent mode 1000Mhz), 1750Mhz Samsung-B/H5GC8H24MJR 113-WE3874U.M5E 387P6SHU.M5E
 * 122W, 1750Mhz Micron-B 113-WE3870U.M3C 387P6MBU.M3C (возможно есть более холодный 113-WE3870U.M5C)
 
 #### E388, 8pin сверху, NCP81022 4-phase Driver + DualMosfet
 VBIOS from E353
-E388 - 470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог E353? https://www.techpowerup.com/forums/threads/sapphire-rx-470-8gb-e388-bios.279773/
+E388 - [470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог E353?](https://www.techpowerup.com/forums/threads/sapphire-rx-470-8gb-e388-bios.279773/)
 
 #### E391, короткая, 8pin сверху - ncp81022, 4 фазы (S88-3E391-001JC)
 * 580 2048sp, 146W, 1750Mhz Samsung-C 113-339101S-U13 391L36SC.U13
@@ -265,11 +265,11 @@ E388 - 470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог 
 
 ## Powercolor/Dataland
 ШИМка всегда ir3567B, видеовыходы в биосе всегда стандартные. Для 6-фазных карт на ir3567B c Micron/Samsung рекомендуется VBIOS
-* RX580 2048SP GDDR5 256Mx32 8G J0112JAY.MLC 2019 - 1310/1750Mhz 6phase ir3567B activates https://www.techpowerup.com/vgabios/207832/207832
+* [RX580 2048SP GDDR5 256Mx32 8G J0112JAY.MLC 2019](https://www.techpowerup.com/vgabios/207832/207832) - 1310/1750Mhz 6phase ir3567B activates
 
 ## XFX/HIS
 На картах с малым TDP ШИМка ncp81022, на картах с большим TDP шимка ir3567B.
-* ncp81022 4 фазы + MT51J256M32HF/K4G80325FB: 113-47185MSF1-W91 https://www.techpowerup.com/vgabios/202074/202074
+* ncp81022 4 фазы + MT51J256M32HF/K4G80325FB: [113-47185MSF1-W91](https://www.techpowerup.com/vgabios/202074/202074)
 
 
 ## Прочее со всякой киатайщины
