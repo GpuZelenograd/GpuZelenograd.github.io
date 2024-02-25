@@ -8,9 +8,11 @@ seo:
   type: LocalBusiness
 ---
 [&nbsp;&nbsp;&nbsp;`🌐En`](https://gpuzelenograd.github.io/README?noredirectfm){: style="float: right"}
-## Наши программы для видеокарт
+## Наши программы и ресурсы для видеокарт
 - Простой нагрузочный тест для проверки видеопамяти современных видеокарт [memtest_vulkan (open source)](https://github.com/GpuZelenograd/memtest_vulkan/releases#user-content-Downloads)
 - Исправление артефактов/отвала/кода 43 для некоторых старых карт [Old NVIDIA artifacts - GTX470-750/780Ti](https://gpuzelenograd.github.io/NVIDIARU?main)
+- [Нюансы по VBIOS старых RX470-580](https://gpuzelenograd.github.io/RX470RU?main)
+
 
 ## Наши ремонты видеокарт
 ![EVGA Extra Thermal pads](photo/EvgaExtraThermalPad.jpg)
