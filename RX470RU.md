@@ -62,9 +62,11 @@ redirect_from:
 ### По поддерживаемой памяти и частоте
 
 Тут можно искать через google и применять дополнительную фильтрацию. Вот например запрос только официальных VBIOS под микрон B-die на частоту 1750Mhz с исключением биосов с автодетектом памяти (чтоб нашлись только те где один вариант без автодетекта)
+
 `67DF MT51J256M32HFB -autodetect -unverified "1750 MHz Temperature" site:techpowerup.com` [ссылка-пример](https://www.google.com/search?filter=0&q=67DF+MT51J256M32HFB+-autodetect+-unverified+%221750+MHz+Temperature%22+site%3Atechpowerup.com)
 
 А вот под Samsung FС на картах Sapphire (код subvendor 1DA2) на частоту 2000 Mhz:
+
 `67DF 1DA2 K4G80325FC "2000 MHz Temperature" site:techpowerup.com` [ссылка-пример](https://www.google.com/search?filter=0&q=67DF+1DA2+K4G80325FC+%222000+MHz+Temperature%22+site%3Atechpowerup.com)
 
 ### По уникальному идентификатору (у многих вендоров начинается на 113)
