@@ -287,35 +287,35 @@ E388 - [470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог
 
 ## device ids из inf-файлов (пока не структурировано)
 ```
-	(?? no driver) 1002-67DF-BDBD-A14C-C0 Blackmagic Radeon Pro 580 8 GB
-	"Radeon RX 580 Series"         PCI\VEN_1002&DEV_67DF&REV_C1 HP/ASUS RX 580 Mobile, мало VBIOS
-	"Radeon RX 570 Series"         PCI\VEN_1002&DEV_67DF&REV_C2 нет VBIOS
-	"Radeon RX 580 Series"         PCI\VEN_1002&DEV_67DF&REV_C3 REF-вариант 580 для HP L39869-001, мало VBIOS
-	"Radeon (TM) RX 480 Graphics"  PCI\VEN_1002&DEV_67DF&REV_C4 Dell RX 580 Mobile, 1 VBIOS (also C4 on basic rx480 with zeroes in VBIOS)
-	"Radeon (TM) RX 470 Graphics"  PCI\VEN_1002&DEV_67DF&REV_C5 Dell RX 570 Mobile, мало VBIOS
-	"Radeon RX 570 Series"         PCI\VEN_1002&DEV_67DF&REV_C6 нет VBIOS
-	"Radeon (TM) RX 480 Graphics"  PCI\VEN_1002&DEV_67DF&REV_C7 много VBIOS, стандарная 480
-	"Radeon (TM) RX 470 Graphics"  PCI\VEN_1002&DEV_67DF&REV_CF много VBIOS, стандарная 470
-	"Radeon(TM) RX 470 Graphics"   PCI\VEN_1002&DEV_67DF&REV_D7 нет VBIOS
-	"Radeon RX 470 Series"         PCI\VEN_1002&DEV_67DF&REV_E0 нет VBIOS
-	"Radeon RX 590 Series"         PCI\VEN_1002&DEV_67DF&REV_E1 много VBIOS, стандарная 590
-	"Radeon RX 590 Series"         PCI\VEN_1002&DEV_67DF&REV_E3 нет VBIOS
-	"Radeon RX 580 Series"         PCI\VEN_1002&DEV_67DF&REV_E7 много VBIOS, стандарная 580
-	"Radeon RX 570 Series"         PCI\VEN_1002&DEV_67DF&REV_EF много VBIOS, стандарная 570
-	"Radeon RX 470 Series"         PCI\VEN_1002&DEV_67DF&REV_FF мало VBIOS 470D -> 560XT
-	"Radeon RX P30PH"              PCI\VEN_1002&DEV_67DF&REV_F7 нет VBIOS
+(?? no driver) 1002-67DF-BDBD-A14C-C0 Blackmagic Radeon Pro 580 8 GB
+"Radeon RX580 Series"       PCI\VEN_1002&DEV_67DF&REV_C1 HP/ASUS RX580 Mobile, мало VBIOS
+"Radeon RX570 Series"       PCI\VEN_1002&DEV_67DF&REV_C2 нет VBIOS
+"Radeon RX580 Series"       PCI\VEN_1002&DEV_67DF&REV_C3 580 для HP L39869, мало VBIOS
+"Radeon (TM) RX480 Graphics"PCI\VEN_1002&DEV_67DF&REV_C4 Dell RX580 Mobile, 1 VBIOS
+"Radeon (TM) RX470 Graphics"PCI\VEN_1002&DEV_67DF&REV_C5 Dell RX570 Mobile, мало VBIOS
+"Radeon RX570 Series"       PCI\VEN_1002&DEV_67DF&REV_C6 нет VBIOS
+"Radeon (TM) RX480 Graphics"PCI\VEN_1002&DEV_67DF&REV_C7 стандарная 480
+"Radeon (TM) RX470 Graphics"PCI\VEN_1002&DEV_67DF&REV_CF стандарная 470
+"Radeon(TM) RX470 Graphics" PCI\VEN_1002&DEV_67DF&REV_D7 нет VBIOS
+"Radeon RX470 Series"       PCI\VEN_1002&DEV_67DF&REV_E0 нет VBIOS
+"Radeon RX590 Series"       PCI\VEN_1002&DEV_67DF&REV_E1 стандарная 590
+"Radeon RX590 Series"       PCI\VEN_1002&DEV_67DF&REV_E3 нет VBIOS
+"Radeon RX580 Series"       PCI\VEN_1002&DEV_67DF&REV_E7 стандарная 580
+"Radeon RX570 Series"       PCI\VEN_1002&DEV_67DF&REV_EF стандарная 570
+"Radeon P30PH"              PCI\VEN_1002&DEV_67DF&REV_F7 нет VBIOS
+"Radeon RX470 Series"       PCI\VEN_1002&DEV_67DF&REV_FF мало VBIOS 470D/560XT
+Прошивка может сделать 6FDF из 67DF. Для 6FDF:
+"AMD Radeon RX590 GME"       PCI\VEN_1002&DEV_6FDF&REV_E7 580 с прошивкой
+"AMD Radeon RX580 2048SP"   PCI\VEN_1002&DEV_6FDF&REV_EF 570 с прошивкой
 
-Vendors overriding in windows inf: 0x1028 (DELL), 0x103C (HP->Asus)
-Asus 0533 - Asus mining led overrides 570 -> Asus 470 (4g & 8g (?))
+
+Vendors overriding in windows inf:
+Asus 0533 - Asus mining led overrides 570 -> Asus 470
 Asus 0539 - 570 -> Asus 470 (?)
 MSI  341E - 470->570 (Armor AC 4g & 8g(?))
 PowerColor 560 - 470 -> 560 XT (4g)
 XFX  9566 -   470 -> 560 XT
 Sapphire A353-470 -> 560 XT (4g)
 Sapphire A396-470 -> 560 XT (4g)
-Sapphire F353-570 -> 580 -2048SP (4g)
 
-Прошивка может сделать 6FDF из 67DF. Для 6FDF:
-	"AMD Radeon RX590 GME"         PCI\VEN_1002&DEV_6FDF&REV_E7 стандарная 580 с прошивкой(?)
-	"AMD Radeon RX 580 2048SP"     PCI\VEN_1002&DEV_6FDF&REV_EF, стандарная 570 с прошивкой
 ```
