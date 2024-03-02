@@ -106,7 +106,8 @@ Some of faulty GPUs may hang even during POST and don't make it to safe mode. Pa
 Several Asus models report `Error: Selected GPU doesn't support flashing modified VBIOS`. For part of them, this can be resolved from console:
 * Open command line window as Administrator
 * `cd` to the "detail" subfolder with "nvflash" executable
-* run command to make VBIOS writable: `nvflash --protectoff`
+* run command to make VBIOS writable: `nvflash.exe --protectoff`
+![protectoff](photo/protectoff.png)
 
 Older GPU models like Fermi-based GTX470-590 and [Kepler-based Grid](https://gpuzelenograd.github.io/photo/GridK2-Fixed.png) cards uses older NVIDIA 3xx drivers and are supported only by Windows version, not the Linux one.
 
