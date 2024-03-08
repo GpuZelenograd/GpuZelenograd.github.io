@@ -35,9 +35,9 @@ redirect_from:
          * суффикс -HC25: 2000Mhz
          * суффикс -HC28: 1750Mhz
          * суффикс -HC03: 1500Mhz
-     * Hynix
-         * суффикс -R4C: 2000Mhz
-         * суффикс -R2C/R0C: 1750Mhz
+     * Hynix (при напряжении 1.5V)
+         * суффикс -R4C/R2C: 2000Mhz
+         * суффикс -R0C: 1750Mhz
          * суффикс -T2C: 1500Mhz
      * Micron
          * D9TCB (A-die), D9VVR(B-die): 2000Mhz
