@@ -270,8 +270,10 @@ E388 - [470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог
 * GV-RX570GAMING-8GD-MI/F*/0704   90W 1750Mhz MT51J256M32HFB (TIC33423)
 
 ## Powercolor/Dataland
-ШИМка всегда ir3567B, видеовыходы в биосе всегда стандартные. Для 6-фазных карт на ir3567B c Micron/Samsung рекомендуется VBIOS
-* [RX580 2048SP GDDR5 256Mx32 8G J0112JAY.MLC 2019](https://www.techpowerup.com/vgabios/207832/207832) - 1310/1750Mhz 6phase ir3567B activates
+ШИМка всегда ir3567B, видеовыходы в биосе всегда стандартные. VBIOS, активирующие все 6 фаз ir3567B, даже если в прошивке ШИМки по умолчанию активны не все:
+* [RX580 113-TIC32852-001](https://www.techpowerup.com/vgabios/200892/asrock-rx580-8192-180329) - 1380Mhz GPU 2000Mhz 8GB Micron/Samsung/Hynix
+* [RX580 2048SP J0112JAY.MLC](https://www.techpowerup.com/vgabios/207832/207832) - 1310Mhz GPU 1750Mhz 8GB Micron/Samsung
+
 
 ## XFX/HIS
 На картах с малым TDP ШИМка ncp81022, на картах с большим TDP шимка ir3567B.
