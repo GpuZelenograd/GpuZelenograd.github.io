@@ -40,9 +40,9 @@ seo:
 По вопросу ремонта видеокарт или при возникновении гарантийного случая:
 - пишите в телеграм [@GpuZelenograd](https://t.me/GpuZelenograd) 
 - обращайтесь к нам через
-[Avito](https://www.avito.ru/moskva_zelenograd/predlozheniya_uslug/slozhnyy_remont_videokart_v_zelenogrademoskve_1026582835)
+[Avito](https://www.avito.ru/user/df744f330261dda7a261469ba281e6c8/profile)
 - звоните по телефону с 10 до 23:
 ![Номер Телефона](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAAVCAYAAABovC1/AAAB60lEQVR42uzSIREAMAwEsAqY36cvfTc8XpRoyMDT9swPKSwBAGBLklucGZg4EMNAsNevIs2oIZd0AHwMETwDvmX8JhcQASw5q9WeTnbqbeNt18fG6/X62Yyf35Vi2n+xdiVL+HKs8PU5kJsrcoPP/N2O2+GRe6G+FYvTjp/gWhESyGf8SMlOW/msrPEmbH/FTXO++znccHMJXq9dDBDluMeAje+ICsCL8QBcC4D1sUiOxQW/Cm7C1+XQBbgpZqUHtb8lhvBbAUMv3gHTBQJw7tkC8qKAiMMn+3lfn4PkDTmyBgZDXOPeolPUieQsYP/+9OLxvj4HxxuxhHxF4V3eaEVoLeOfw2J5UZwtNI0DtPX1OehX9mjerShOPLSBRDEhg8A8rEpCBUHcHwMqMSlfl0MeIPNeD4qChW0gdvCC1ZHXhxjOfFG87ylhkxNw9YwoxHQ6TFuclsF6Qm2X8Ccm6Yt1L4g86D4mihmgg3y718n4ofd5UXhBsNNm+8qguaUk3+69KHwRvVjPC9sIglwVDWKpaRaDFwwXZDL6elYA9pdVGtvwvj4HwaETpcAgLq/CVawYNjuO9+vqOCe6hCBzrLDt+uonkdfnsC+JQl1zs32pMzqBd5w9tZzsEshpZGzO1+Tg/9Q7Lwr7h9gv2bliwkaywI4AAAAASUVORK5CYII=)
 
 
-Если объявление на Avito неактивно - значит сейчас на ремонт очередь))
+Если объявление о ремонте на Avito неактивно - значит сейчас на ремонт очередь))
