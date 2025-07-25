@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    
+    
+    
+    
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>VBIOS для RX470-580 | GpuZelenograd</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="VBIOS для RX470-580" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Нюансы различных производителей" />
+<meta property="og:description" content="Нюансы различных производителей" />
+<link rel="canonical" href="https://gpuzelenograd.github.io/RX470RU" />
+<meta property="og:url" content="https://gpuzelenograd.github.io/RX470RU" />
+<meta property="og:site_name" content="GpuZelenograd" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="VBIOS для RX470-580" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Нюансы различных производителей","headline":"VBIOS для RX470-580","url":"https://gpuzelenograd.github.io/RX470RU"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <link rel="icon" type="image/png" href="favicon128.png">
+	<style>
+		
+		/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}details,main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}.highlight table td{padding:5px}.highlight table pre{margin:0}.highlight,.highlight .w{color:#d0d0d0}.highlight .err{color:#151515;background-color:#ac4142}.highlight .c,.highlight .cd,.highlight .cm,.highlight .c1,.highlight .cs{color:#888}.highlight .cp{color:#f4bf75}.highlight .nt{color:#f4bf75}.highlight .o,.highlight .ow{color:#d0d0d0}.highlight .p,.highlight .pi{color:#d0d0d0}.highlight .gi{color:#90a959}.highlight .gd{color:#ac4142}.highlight .gh{color:#6a9fb5;font-weight:bold}.highlight .k,.highlight .kn,.highlight .kp,.highlight .kr,.highlight .kv{color:#aa759f}.highlight .kc{color:#d28445}.highlight .kt{color:#d28445}.highlight .kd{color:#d28445}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .sh,.highlight .sx,.highlight .s1{color:#90a959}.highlight .sr{color:#75b5aa}.highlight .si{color:#8f5536}.highlight .se{color:#8f5536}.highlight .nn{color:#f4bf75}.highlight .nc{color:#f4bf75}.highlight .no{color:#f4bf75}.highlight .na{color:#6a9fb5}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .il,.highlight .mo,.highlight .mb,.highlight .mx{color:#90a959}.highlight .ss{color:#90a959}body{font:14px/22px Helvetica, Arial, sans-serif;color:#2b2b2b;font-weight:300;margin:0px;padding:0px 0 20px 0px;background:url(/assets/images/body-background.png) #eae6d1}h1,h2,h3,h4,h5,h6{color:#333;margin:0 0 10px}p,ul,ol,table,pre,dl{margin:0 0 20px}h1,h2,h3{line-height:1.1}h1{font-size:26px}h2{font-size:23px;color:#393939}h3,h4,h5,h6{color:#666666}h3{font-size:18px;line-height:24px}a{color:#4276b6;font-weight:400;text-decoration:none}a small{font-size:11px;color:#666;margin-top:-0.6em;display:block}ul{text-align:left;line-height:28px}li::marker{content:"▸ "}strong{font-weight:bold}.wrapper{max-width:830px;background:#fbfbfb;margin:0 auto;margin-top:150px;position:relative;border-radius:3px;border:1px solid #cbcbcb;box-shadow:0px 1px 2px rgba(0,0,0,0.09),inset 0px 0px 2px 2px rgba(255,255,255,0.5),inset 0 0 5px 5px rgba(255,255,255,0.4)}section img{max-width:100%}blockquote{border-left:1px solid #ffcc00;margin:0;padding:0 0 0 20px;font-style:italic}code{font-family:'monospace';background:#eee;color:#2b2b2b}pre{padding:8px 15px;background:#eee;border-radius:3px;border:1px solid #c7c7c7;overflow:auto;overflow-y:hidden}pre code{margin:0px;padding:0px}kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5;color:#444d56;display:inline-block;font-size:11px;line-height:10px;padding:3px 5px;vertical-align:middle}table{width:100%;border-collapse:collapse}th{text-align:left;padding:5px 10px;border-bottom:1px solid #e5e5e5;color:#444}td{text-align:left;padding:5px 10px;border-bottom:1px solid #e5e5e5;border-right:1px solid #ffcc00}td:first-child{border-left:1px solid #ffcc00}hr{border:0;outline:none;height:11px;background:transparent url(/assets/images/hr.gif) center center repeat-x;margin:0 0 20px}dt{color:#444;font-weight:700}header{padding:25px 20px 40px 20px;margin:0;position:fixed;top:0;left:0;right:0;width:100%;text-align:center;background:#4073b3;box-shadow:1px 0px 2px rgba(0,0,0,0.75);text-shadow:rgba(0,0,0,0.2) 0 1px 0;color:#d8d8d8;z-index:99;-webkit-font-smoothing:antialiased;min-height:76px}header h1{color:#f3f3f3;font:40px Helvetica, Arial, sans-serif;margin:0px}header p{font-size:18px;margin:0px}section{max-width:768px;padding:10px 0px 15px 0px;margin:auto;position:relative}small{font-size:12px}section p{text-align:justify}body{word-wrap:break-word}big{white-space:nowrap}@media print, screen and (max-width: 799px){.wrapper{border:3px solid #fbfbfb;margin-top:113px}header{padding:5px 5px;margin:0}header h1{font-size:32px}header p{font-size:12px}}@media print, screen and (max-width: 599px){big{font-size:14px}h3{font-size:12px}}@media print, screen and (max-width: 359px){header{position:relative;padding:5px 0px;min-height:0px}header h1{font-size:24px}.wrapper{margin-top:5px}big{display:block;white-space:inherit}p{column-count:unset !important}}@media print{body{padding:0.4in;font-size:12pt;color:#444}}
+
+	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+
+    <header>
+      <h1>VBIOS для RX470-580</h1>
+      <p>Нюансы различных производителей</p>
+    </header>
+
+    <div class="wrapper">
+      <section>
+        <h1 id="подбор-подходящего-vbios-для-rx470-580">Подбор подходящего VBIOS для RX470-580</h1>
+<p>Данные заметки представлены в ознакомительных целях. Мы не оказываем услуги подбора VBIOS и не принимаем карты RX470-580 в ремонт.</p>
+
+<p>Это текст от 2024.02; обновления - если они будут - опубликуется GpuZelenograd в <a href="https://gpuzelenograd.github.io/RX470RU">https://gpuzelenograd.github.io/RX470RU</a>. Выражаю благодарность всем коллегам по цеху, без вашей информации этот список был бы многократно меньше.</p>
+
+<h3 id="на-что-обращать-внимание-при-выборе-vbios-на-techpowerup">На что обращать внимание при выборе VBIOS на TechPowerup</h3>
+
+<ul>
+  <li>Наличие в списке поддерживаемых типов памяти - той памяти, которая фактически стоит на видеокарте</li>
+  <li>Совпадения порядка и количества видеовыходов. Если карта майнинговая и видеовыходов мало - допускается чтоб в VBIOS их было больше чем по факту. В каких биосах какие видеовыходы про многие VBIOS написано в разделе ниже</li>
+  <li>Совпадение модели ШИМ. В каких биосах какая ШИМ про многие VBIOS написано в разделе ниже</li>
+  <li>Соответствие TDP указанного в techpowerup  и количества фаз
+    <ul>
+      <li>Если на карте 5-6 фаз, то TDP должен быть более 100W, иначе карта будет неадекватно снижать частоту</li>
+      <li>Если на карте 4 фазы, то TDP должен быть менее 100W, иначе карта сгорит</li>
+      <li>Также после прошивки VBIOS следует проверить что под нагрузкой реально активируются все фазы, такую несовместимость заранее предсказать проблематично</li>
+    </ul>
+  </li>
+  <li>Отсутствие редактирования от майнеров. 99% биосов без красной плашки Unverified являются не редактированными (очень редко бывает исключения). Но и среди “Unverified” тоже много нормальных VBIOS. Как правило это можно проверить по 2 критериям:
+    <ul>
+      <li>в строчках Memory Timings не должно быть соседних строк с одинаковыми (скопированными значениями).</li>
+      <li>частоты памяти и GPU должны соответствовать заявленным на сайте производителя, майнеры могли делать частоты как выше, так и ниже.</li>
+    </ul>
+  </li>
+  <li>Частоту GPU Clock (максимальную). Попытка поставить на RX470 биос от быстрой 580 с частотой 1411 MHz приведёт к случайным вылетам приложений.</li>
+  <li>Частоту памяти (максимальную). Если микросхемы памяти не спроектированы для работы на 2000Mhz, использовать их на 2000Mhz не рекомендуется. Заводские частоты 8Gbit-чипов:
+    <ul>
+      <li>Samsung
+        <ul>
+          <li>суффикс -HC22: 2000-2250Mhz</li>
+          <li>суффикс -HC25: 2000Mhz</li>
+          <li>суффикс -HC28: 1750Mhz</li>
+          <li>суффикс -HC03: 1500Mhz</li>
+        </ul>
+      </li>
+      <li>Hynix (при напряжении 1.5V)
+        <ul>
+          <li>суффикс -R4C/R2C: 2000Mhz</li>
+          <li>суффикс -R0C: 1750Mhz</li>
+          <li>суффикс -T2C: 1500Mhz</li>
+        </ul>
+      </li>
+      <li>Micron
+        <ul>
+          <li>D9TCB (A-die), D9VVR(B-die): 2000Mhz</li>
+          <li>D9SXD (A-die), D9VVQ(B-die), D9TRV(A-die), D9SSX(A-die): 1750Mhz</li>
+          <li>D9SXC (A-die), D9VVW(B-die), D9TRZ(A-die): 1500Mhz</li>
+          <li>D9XDL - 4Gbit-чип, 1500Mhz</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>И только в самую последнюю очередь имеет смысл обращать внимание на то - какая карта 470/480/570 (она же 580-2048sp)/580(она же 590_GME)
+    <ul>
+      <li>Все биосы будут исправно работать со всеми чипами, единственный недочёт - использование биоса от 470/570 на 480/580 приведёт к тому что будут задействоваться только 2048 шейдерных блоков из 2304 доступных.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="способы-поиска-в-базе-techpowerup">Способы поиска в базе TechPowerup</h1>
+<p>В зависимости от ситуации могут использоваться разные способы поиска. Некоторые из них предоставлены самим TechPowerup, некоторые через Google</p>
+
+<h3 id="только-по-subvendor">Только по subvendor</h3>
+<p>По subvendor id (нужное значение гуглится по скриншотам GPU-Z) - например для XFX=1682. Ищем в 3 вариациях, подставляя это код в URL</p>
+
+<ul>
+  <li><a href="https://www.techpowerup.com/vgabios/?did=1002-67DF-1682-">Официальные Биосы techpowerup: https://www.techpowerup.com/vgabios/?did=1002-67DF-1682-</a></li>
+  <li><a href="https://www.techpowerup.com/vgabios/?architecture=Uploads&amp;did=1002-67DF-1682-">Непроверенные биосы: https://www.techpowerup.com/vgabios/?architecture=Uploads&amp;did=1002-67DF-1682-</a></li>
+  <li><a href="https://www.techpowerup.com/vgabios/?architecture=Uploads&amp;did=1002-6FDF-1682-">Непроверенные биосы на ребрендинг (580 2048SP и 590 GME): https://www.techpowerup.com/vgabios/?architecture=Uploads&amp;did=1002-6FDF-1682-</a></li>
+</ul>
+
+<p>Однако, многие VBIOS используют subvendor id=1002 (код AMD) что не позволяет найти VBIOS по subvendor</p>
+
+<h3 id="по-поддерживаемой-памяти-и-частоте">По поддерживаемой памяти и частоте</h3>
+
+<p>Тут можно искать через google и применять дополнительную фильтрацию. Вот например запрос только официальных VBIOS под микрон B-die на частоту 1750Mhz с исключением биосов с автодетектом памяти (чтоб нашлись только те где один вариант без автодетекта)</p>
+
+<p><code class="language-plaintext highlighter-rouge">67DF MT51J256M32HFB -autodetect -unverified "1750 MHz Temperature" site:techpowerup.com</code> <a href="https://www.google.com/search?filter=0&amp;q=67DF+MT51J256M32HFB+-autodetect+-unverified+%221750+MHz+Temperature%22+site%3Atechpowerup.com">ссылка-пример</a></p>
+
+<p>А вот под Samsung FС на картах Sapphire (код subvendor 1DA2) на частоту 2000 Mhz:</p>
+
+<p><code class="language-plaintext highlighter-rouge">67DF 1DA2 K4G80325FC "2000 MHz Temperature" site:techpowerup.com</code> <a href="https://www.google.com/search?filter=0&amp;q=67DF+1DA2+K4G80325FC+%222000+MHz+Temperature%22+site%3Atechpowerup.com">ссылка-пример</a></p>
+
+<h3 id="по-уникальному-идентификатору-у-многих-вендоров-начинается-на-113">По уникальному идентификатору (у многих вендоров начинается на 113)</h3>
+<p>В списках по производителям ниже многие VBIOS представлены просто их идентификатором без ссылки. Чтоб скачать такой биос опять же используем google</p>
+
+<p><code class="language-plaintext highlighter-rouge">"113-D0090101-100" -unverified site:techpowerup.com</code> <a href="https://www.google.com/search?filter=0&amp;q=%22113-D0090101-100%22+-unverified+site%3Atechpowerup.com">ссылка-пример</a></p>
+
+<p>Если среди официальных не нашлось - убираем фильтрацию по unverified.</p>
+
+<p><code class="language-plaintext highlighter-rouge">"GV-RX570GAMING-8GD/FH0/0A9D" site:techpowerup.com</code> <a href="https://www.google.com/search?filter=0&amp;q=%22GV-RX570GAMING-8GD%2FFH0%2F0A9D%22+site%3Atechpowerup.com">ссылка-пример</a></p>
+
+<h1 id="нюансы-по-производитлям-карт---шимы-и-видеовыходы">Нюансы по производитлям карт - ШИМы и видеовыходы</h1>
+
+<h2 id="reference-карты-турбины-sapphire-и-другие-с-идентичным-текстолитом">Reference-карты (турбины Sapphire и другие с идентичным текстолитом)</h2>
+<p>ШИМ: IR3567B, 4-6 фаз
+Видеовыходы: 1 HDMI с нижнего краю, опционально DVI параллельно ему вторым рядом и 3 DP в том же ряду что HDMI. На майнинговых бывает отсутствие подмножества - бывает что есть только DVI или из 3х шт DP оставлен 1. Такие отличия как правило не отражаются в VBIOS, и на совместимость не влияют.</p>
+
+<p>480 Reference 2000MHz 8GB (0B37</p>
+<ul>
+  <li>110W Samsung-B - 113-D0090101-100 D0090101.100</li>
+</ul>
+
+<p>470 Reference (Sapphire platinum E349)</p>
+<ul>
+  <li>92W Micron-A - 113-349P8-UM1 349P0EMG.U41</li>
+</ul>
+
+<h2 id="asus">Asus</h2>
+<p>На всех картах имеет уникальное сочетание ШИМа и видеовыходов, которое не встречается у других производителей. Соответственно не пытайтесь использовать VBIOS Asus для других производителей, и наоборот.</p>
+
+<p><a href="https://www.techpowerup.com/vgabios/?did=1002-67DF-1043--">Большинство нужных VBIOS ASUS представлено тут</a></p>
+
+<h4 id="карты-expeditionled-на-шимке-asp1106">карты Expedition/LED на шимке ASP1106</h4>
+<p>Под карты Expedition/LED на шимке ASP1106 и память Samsung FB идёт вот этот VBIOS
+<a href="https://www.techpowerup.com/vgabios/206012/206012">67DFHB.15.50.2.1.AS56</a></p>
+
+<p>Также он является диагностическим - у него пониженные требования к ШИМ-контроллеру для старта и некоторые платы с неисправными ШИМ-контроллерами других моделей, зависающие на инициализации - с ним дают картинку в windows через некоторые видеовыходы;
+это позволяет сделать предположение об исправности чипа; полноценно работать не будет, т.к. ШИМка всё же не та</p>
+
+<h2 id="sapphire">Sapphire</h2>
+<p>Все модели кроме reference-турбины имеют видеовыходы отличающиеся от reference, “2 HDMI под DVI, 2 DP сбоку”, поэтому тут тоже - нет совместимости с другими вендорами.
+Конкретная модель карты Sapphire написана на наклейке вида “E3??”. ШИМка IR3567B/NCP81022 и количество фаз представлено в списке ниже в соответствии с этим номером.
+В биосе этот же номер представлен как последние 4 цифры идентификатора устройства, после 1DA2</p>
+
+<h4 id="e343-ncp81022-4-phase-6pin-сверху-расположение-питания-ближе-к-видеовыходaм-как-reference">E343, NCP81022 4-phase 6pin сверху, расположение питания ближе к видеовыходaм, как Reference</h4>
+<p>Sapphire 570 Pulse Mini ITX 1750Mhz 8GB (E343)</p>
+<ul>
+  <li>120W Samsung-B - 113-D00036-S01 343L05S7.S01</li>
+  <li>120W Micron-B/H5GQ8H24MJR - 113-D00035-S02 343L0507.S02</li>
+</ul>
+
+<h4 id="e347-ir3567b-8pin-сбоку-необычное-4-5-6-фаз-по-распайке">E347, IR3567B 8pin сбоку (необычное), 4-5-6 фаз по распайке</h4>
+<p>Sapphire 470 nitro+ <strong>2000Mhz</strong> 8GB (E347) - даже если фаз 5 - продолжают работать только 4.</p>
+<ul>
+  <li>110W Samsung-B - 113-1E3470U.S61 347P06SU.S61</li>
+  <li>130W Samsung-B - 113-1E3470U.O4W 347P06SU.O4W</li>
+</ul>
+
+<p>Sapphire 480 nitro+/nitro+ OC 2000Mhz 8GB (E347) - vbios активирует 5фазный режим при старте</p>
+<ul>
+  <li>140W Samsung-B - 113-2E3472U.O54 347X06SU.O54 (на 1306Mhz)</li>
+  <li>145W Samsung-B - 113-2E3470U.S5X 347X06SU.S5X (более старая вариация S52, на 1306Mhz - O5Y)</li>
+  <li>150W Samsung-B - 113-2E3470U.X5W 347X06SU.X5W (и более старые вариации X4L, X51)</li>
+  <li>150W H5GC8H24MJR - 113-2E3470U.X6N 347X06HU.X6N</li>
+</ul>
+
+<p>Sapphire 570 1750Mhz</p>
+<ul>
+  <li>125W Micron-A/H5GQ8H24MJR 113-3E3470U-S47 347L060U.S47 (activates 5 phases)</li>
+</ul>
+
+<p>Sapphire 470D(?) 1650Mhz 8GB (E350), NCP81022 4-phase</p>
+<ul>
+  <li>95W Samsung-B - 113-350P58G-U41 350P0ESI.U41 (и более новая вариация U44)</li>
+</ul>
+
+<p>470D <strong>4GB</strong> (A019)</p>
+<ul>
+  <li>100W - 113-3E353AU-O4J 353D05SU.O4J</li>
+</ul>
+
+<h4 id="e350-6pin-сбоку-gpro-8200-ir3567b-5-phase">E350, 6pin сбоку, GPRO 8200 IR3567B 5-phase</h4>
+<ul>
+  <li>85W Samsung 113-350P58G</li>
+</ul>
+
+<h4 id="e353-8pin-сверху-ncp81022-4-phase-drmos">E353, 8pin сверху, NCP81022 4-phase DrMos</h4>
+<p>бывает quad</p>
+
+<p>Sapphire 470 nitro 1750Mhz 8GB (E353) + подходит под pulse rx570</p>
+<ul>
+  <li>128W H5GQ8H24MJR - 113-WE353GU-M7F 353P06HU.M7F</li>
+  <li>128W Samsung-B/Micron-A - 113-2E353BU.O50 353P060U.O50 - под переделку, + подходит под pulse rx570</li>
+  <li>122W Micron-B - 113-WE3534U-M9J 353P6MBU.M9J</li>
+</ul>
+
+<p>Sapphire 480 nitro OC <strong>1750Mhz</strong> 8GB (E353)</p>
+<ul>
+  <li>142W Samsung-B/Micron-A - 113-1E353FU.O50 353X060U.O50</li>
+</ul>
+
+<p>Sapphire 570 Pulse 1750Mhz 8GB (E353)</p>
+<ul>
+  <li>135W Micron-B/H5GQ8H24MJR - 113-5E353BU-O6G 353L6MHU.O6G</li>
+  <li>135W Samsung-B/H5GQ8H24MJR - 113-5E353BU-O4G 353L6SHU.O4G</li>
+  <li>135W H5GC8H24AJR_PARTNER_SAPPHIRE - 113-2E353WU-O6K 353L6HAJ.O6K</li>
+</ul>
+
+<p>Sapphire 580 Pulse 2000Mhz 8GB (E353)</p>
+<ul>
+  <li>155W Samsung-B/H5GC8H24AJR_PARTNER_SAPPHIRE - 113-4E353WU-O67 353Y6HAJ.O67</li>
+  <li>155W Micron-B - 113-4E353BU-O50 353Y6MBU.O50</li>
+  <li>155W Samsung-B/H5GQ8H24MJR - 113-4E353BU-O4E 353Y060U.O4E</li>
+  <li>155W H5GQ8H24MJR - 113-4E3531U-O4V 353Y06HU.O4V - прошивка этого в rx570 даёт revision E7 у которого 32CU</li>
+</ul>
+
+<p>Sapphire 590 GME 2000Mhz 8GB (E353)</p>
+<ul>
+  <li>160W Samsung-C/H5GC8H24AJR_PARTNER_SAPPHIRE 113-4E353GU-S80 353GHASC.S80</li>
+</ul>
+
+<h4 id="e366-6pin--8pin-сверху-ncp81022-6-phase">E366, 6pin + 8pin сверху, NCP81022 6-phase</h4>
+<p>Sapphire 570 nitro+ 1750Mhz 8GB (E366)</p>
+<ul>
+  <li>135W H5GQ8H24MJR - 113-2E366DU-S4U 366L06HU.S4U</li>
+  <li>135W Micron-B - 113-2E366DU-S5U 366L6MBU.S5U</li>
+  <li>135W Samsung-B/Micron-A - 113-2E366DU-S4L 366L060U.S4L</li>
+  <li>160W H5GQ8H24MJR - 113-2E366AU-X56 366L06HU.X56</li>
+  <li>160W Micron-B - 113-2E366AU-X5T 366L6MBU.X5T</li>
+  <li>160W Samsung-B/Micron-A - 113-2E366AU-X4Z 366L060U.X4Z - под переделку. Прошивка этого в 580 чип - даёт rev от 570.</li>
+</ul>
+
+<p>Sapphire 580 nitro+ 2000Mhz 8GB (E366)</p>
+<ul>
+  <li>160W Micron-B - 113-1E366CU-S5S 366Y6MBU.S5S</li>
+  <li>160W Samsung-B/H5GQ8H24MJR - 113-1E366CU-S52 366Y060U.S52</li>
+  <li>160W Micron-A - 113-1E366CU-S5Q 366Y06MU.S5Q (возможно низкий хешрейт при тех же частотах, причины не очень ясны)</li>
+  <li>175W Micron-B - 113-1E3660U-O5R 366Y6MBU.O5R</li>
+  <li>175W Samsung-B/H5GQ8H24MJR - 113-1E3660U-O51 366Y060U.O51 (есть боле старый 113-3E366DU-S4Y 366R060U.S4Y)</li>
+  <li>175W Micron-A - 113-1E3660U-O5P 366Y06MU.O5P под переделку</li>
+  <li>175W Samsung-C - 113-1E3660U-O69 366Y6SFC.O69</li>
+  <li>175W Samsung-B/H5GC8H24AJR_PARTNER_SAPPHIRE - 113-1E3664U-O65 366Y6HAJ.O65</li>
+  <li>185W Samsung-B/H5GQ8H24MJR - 113-SE366AU-Z45 366R060U.Z45</li>
+</ul>
+
+<p>Sapphire 580 <strong>2100Mhz</strong> 8GB (E366)</p>
+<ul>
+  <li>183W Micron-B - 113-BE366EU-Z48 366R6MBU.Z48</li>
+  <li>183W Samsung-B/H5GQ8H24MJR - 113-BE366EU-Z46 366R060U.Z46</li>
+</ul>
+
+<p>Sapphire 590 GME 2000Mhz 8GB (E366)</p>
+<ul>
+  <li>180W Samsung-C/H5GQ8H24MJR - 113-1E366GU-O40 366G6SFC.O40</li>
+</ul>
+
+<p>Sapphire 590 2000Mhz 8GB (E366)</p>
+<ul>
+  <li>175W Micron-B - 113-4E3664U-S6B 366U6MBU.S6B</li>
+  <li>175W H5GQ8H24MJR - 113-4E3661U-S6J 366U6HYU.S6J</li>
+  <li>175W Samsung-C - 113-4E3661U-S6R 366U6SFC.S6R</li>
+</ul>
+
+<p>Sapphire 590 <strong>2100Mhz</strong> 8GB (E366)</p>
+<ul>
+  <li>185W Micron-B - 113-4E3661U-X6A 366U6MBU.X6A</li>
+  <li>185W H5GQ8H24MJR - 113-4E3661U-X6I 366U6HYU.X6I</li>
+  <li>185W Samsung-B - 113-4E3661U-X6M 366U6S0U.X6M</li>
+</ul>
+
+<h4 id="e382---по-видковыходам-как-reference-570-с-турбиной-но-шим-up9504">E382 - по видковыходам как reference 570 с турбиной, но ШИМ up950<em>4</em></h4>
+<p>(единственная модель в этом списке с ШИМ up9504)</p>
+<ul>
+  <li>113-3E3820PC Samsung-B 1750Mhz (https://www.techpowerup.com/vgabios/223204/223204)[https://www.techpowerup.com/vgabios/223204/223204]</li>
+</ul>
+
+<h4 id="e387-8pin-сверху-ir3567b-4phase">E387, 8pin сверху, IR3567B 4phase</h4>
+<p>существует текстолит под quad bios</p>
+
+<p>Sapphire 590 Pulse 2000Mhz 8GB (E387)</p>
+<ul>
+  <li>175W Samsung-B - 113-5E3874U-S4R 387U6S0U.S4R</li>
+  <li>175W Samsung-B - 113-5E3874U-S4T 387U6S0U.S4T - отличий мало: в имени папки в заголовке и ucCKSVOffsetandDisable</li>
+</ul>
+
+<p>Sapphire 580 Pulse 2000Mhz 8GB (E387)</p>
+<ul>
+  <li>155W Micron-B - 113-1E3870U-O49 387Y6MBU.O49</li>
+  <li>155W Samsung-B/H5GQ8H24MJR 113-1E3870U-O45 387Y6SHU.O45</li>
+  <li>155W Samsung-B/H5GQ8H24MJR 113-1E3870U-O4B 387Y6SHU.O4B</li>
+</ul>
+
+<p>Sapphire 570 Pulse 1750Mhz 8GB (E387)</p>
+<ul>
+  <li>138W Micron-B - 113-2E3870U-O4J 387L6MBU.O4J</li>
+</ul>
+
+<p>Возможно её VBIOS 387E:</p>
+<ul>
+  <li>122W, 1750Mhz Samsung-B/H5GC8H24MJR 113-WE3874U.M3E 387P6SHU.M3E (возможно есть более новый 387P6SHU.M4E)</li>
+  <li>75W(silent mode 1000Mhz), 1750Mhz Samsung-B/H5GC8H24MJR 113-WE3874U.M5E 387P6SHU.M5E</li>
+  <li>122W, 1750Mhz Micron-B 113-WE3870U.M3C 387P6MBU.M3C (возможно есть более холодный 113-WE3870U.M5C)</li>
+</ul>
+
+<h4 id="e388-8pin-сверху-ncp81022-4-phase-driver--dualmosfet">E388, 8pin сверху, NCP81022 4-phase Driver + DualMosfet</h4>
+<p>VBIOS from E353
+E388 - <a href="https://www.techpowerup.com/forums/threads/sapphire-rx-470-8gb-e388-bios.279773/">470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог E353?</a></p>
+
+<h4 id="e391-короткая-8pin-сверху---ncp81022-4-фазы-s88-3e391-001jc">E391, короткая, 8pin сверху - ncp81022, 4 фазы (S88-3E391-001JC)</h4>
+<ul>
+  <li>580 2048sp, 146W, 1750Mhz Samsung-C 113-339101S-U13 391L36SC.U13</li>
+</ul>
+
+<h4 id="e396-299-fe396-000cf">E396 (299-FE396-000CF)</h4>
+<p>??</p>
+
+<h2 id="msi-v341">MSI, V341</h2>
+<p>Некоторые модели имеют видеовыходы отличающиеся от reference, “2 HDMI под DVI, 2 DP сбоку”, поэтому тут тоже - нет совместимости с другими вендорами.
+Конкретная модель карты MSI написана на текстолите как версия X.X после V341 VER. ШИМка IR3567B/up9505 и нестандартные нюансы видеовыходов представлено в списке ниже в соответствии с этим номером.
+В биосе этот же номер представлен как последние 2 цифры после 341 в текстовой строке, начинающейся со 113. Строка отображается второй в резделе BIOS Internals в techpowerup. Т.е. 113-V34122 соответствует ver2.2.</p>
+
+<ul>
+  <li>V341 ver1.1,ver1.2 ШИМ IR3567B, но в отличии от reference оба порта под DVI-выходом, это HDMI (как на sapphire)</li>
+  <li>V341 ver1.3,ver1.4 ШИМ up9505, 2HDMI как на sapphire
+    <ul>
+      <li>для 1.3 Samsung-B/H5GQ8H24MJR MS-V34113-F1, 113-MSITV341MH.613</li>
+      <li>для 1.4 Samsung-B/H5GQ8H24MJR/Micron-B “113-MSITV341MH.840” “113-MSITV341MH.841” - отличаются только EFI-частью</li>
+    </ul>
+  </li>
+  <li>V341 ver2.0,ver2.1 просто удлинённый Reference, ШИМ IR3567B, видеовыходы стандартные</li>
+  <li>V341 ver2.2 ШИМ up9505, видеовыходы стандартные</li>
+  <li>V341 ver3.0 ШИМ ir35201, 2 HDMI (как на sapphire) - ни с чем не совместим (580 Gaming+, 180W, 2x8 PIN)</li>
+  <li>V809-2258,V809-3428,V809-2657 - идентичны Reference</li>
+</ul>
+
+<h2 id="gigabyte">Gigabyte</h2>
+<p>Самые сложные карты, ШИМки бывают up9505p и ir3567b, как отличить по биосу непонятно, надо следить что все фазы активировались в нагрузке.
+Ниже частичная попытка классификации VBIOS для  Rx 570 Ganing</p>
+
+<ul>
+  <li>GV-RX570GAMING-8GD/FF0/0AC5    125W 1750Mhz MT51J256M32HFB в биосе не прописано наличие DVI</li>
+  <li>GV-RX570GAMING-8GD/FX0/078B     90W 1750Mhz K4G80325FB</li>
+  <li>GV-RX570GAMING-8GD/FI1/0A2B    125W 1750Mhz H5GC8H24AJR_MI_PARTNER_GBT</li>
+  <li>GV-RX570GAMING-8GD/FH0/0A9D    125W 1750Mhz MT51J256M32HFB - not activate IR phases, maybe desogned for up9505p</li>
+  <li>GV-RX570GAMING-8GD/FA0/078E     90W 1750Mhz H5GQ8H24MJR_MI_PARTNER_GBT</li>
+  <li>GV-RX570GAMING-8GD/F90/0757     90W 1750Mhz MT51J256M32HFB</li>
+  <li>GV-RX570GAMING-8GD/F80/0753     90W 1750Mhz MT51J256M32HFB</li>
+  <li>GV-RX570GAMING-8GD/F1/0763      90W 1750Mhz MT51J256M32HFB</li>
+  <li>GV-RX570GAMING-8GD-MI/F80/073F  90W 1750Mhz MT51J256M32HF</li>
+  <li>GV-RX570GAMING-8GD-MI/F7?/0739  90W 1750Mhz MT51J256M32HF(MI_PARTNER_GBT) activates 6 IR phases, MTP becomes like GV-RX570AORUS-4G</li>
+  <li>GV-RX570GAMING-8GD-MI/F6*/0705  90W 1750Mhz MT51J256M32HFB</li>
+  <li>GV-RX570GAMING-8GD-MI/F20/072F  90W 1750Mhz H5GC8H24MJR</li>
+  <li>GV-RX570GAMING-8GD-MI/F11/072E  90W 1750Mhz K4G80325FB_MI_PARTNER_GBT</li>
+  <li>GV-RX570GAMING-8GD-MI/F*/0704   90W 1750Mhz MT51J256M32HFB (TIC33423)</li>
+</ul>
+
+<h2 id="powercolor---карты-где-выход-hdmi-находится-между-dp-и-dvi-и-все-3-выхода-в-одну-линию">Powercolor - карты где выход HDMI находится между DP и DVI (и все 3 выхода в одну линию)</h2>
+<p><img src="/photo/PolarisDpHdmiDvi.png" alt="PolarisDpHdmiDvi" /></p>
+
+<p>Вариация с таким расположением видеовыходов появилась позднее других. Для неё подходят только VBIOS выпущенные не ранее 2019 года</p>
+
+<ul>
+  <li>Red Dragon AXRX 590 8GBD5-DHD
+    <ul>
+      <li><a href="https://www.techpowerup.com/vgabios/216290/powercolor-rx590-8192-190827">Samsung 8GB K0828OA9.SLC</a></li>
+      <li><a href="https://www.techpowerup.com/vgabios/210648/powercolor-rx590-8192-190117">Micron 8GB K0118OAX.MLC</a></li>
+    </ul>
+  </li>
+  <li>Red Dragon AXRX 580 8GBD5-DHD/DHDV2 (+590 GME)
+    <ul>
+      <li><a href="https://www.techpowerup.com/vgabios/256122/256122">Samsung 8GB I9624OA5.SLO</a></li>
+      <li><a href="https://www.techpowerup.com/vgabios/250135/250135">Hynix 8GB I9516OAJ.HLC</a></li>
+      <li><a href="https://www.techpowerup.com/vgabios/255229/255229">Micron 8GB I9624OA6.MLO</a></li>
+    </ul>
+  </li>
+  <li>Red Dragon AXRX 570 8GBD5-DHDV3 (+580 2048SP)
+    <ul>
+      <li><a href="https://www.techpowerup.com/vgabios/242799/powercolor-rx570-8192-200616">Samsung 8GB J0616ODA.SJO</a></li>
+    </ul>
+  </li>
+  <li>Red Dragon AXRX 570 4GBD5-DHDV3
+    <ul>
+      <li><a href="https://www.techpowerup.com/vgabios/230671/230671">Samsung 4GB J0724OA9.MLC</a></li>
+      <li><a href="https://www.techpowerup.com/vgabios/251060/251060">Hynix 4GB J0309OAI.HLC</a></li>
+      <li><a href="https://www.techpowerup.com/vgabios/223009/223009">Micron 4GB D9XDL J0406OD3.MJO</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="powercolordataland---карты-где-выход-hdmi-у-края">Powercolor/Dataland - карты где выход HDMI у края</h2>
+<p>ШИМка всегда ir3567B, видеовыходы в биосе всегда стандартные. VBIOS, активирующие все 6 фаз ir3567B, даже если в прошивке ШИМки по умолчанию активны не все:</p>
+<ul>
+  <li><a href="https://www.techpowerup.com/vgabios/200892/asrock-rx580-8192-180329">RX580 113-TIC32852-001</a> - 1380Mhz GPU 2000Mhz 8GB Micron/Samsung/Hynix</li>
+  <li><a href="https://www.techpowerup.com/vgabios/207832/207832">RX580 2048SP J0112JAY.MLC</a> - 1310Mhz GPU 1750Mhz 8GB Micron/Samsung</li>
+</ul>
+
+<h2 id="xfxhis">XFX/HIS</h2>
+<p>На картах с малым TDP ШИМка ncp81022, на картах с большим TDP шимка ir3567B.</p>
+<ul>
+  <li>ncp81022 4 фазы + MT51J256M32HF/K4G80325FB: <a href="https://www.techpowerup.com/vgabios/202074/202074">113-47185MSF1-W91</a></li>
+</ul>
+
+<h2 id="прочее-со-всякой-киатайщины">Прочее со всякой киатайщины</h2>
+<ul>
+  <li>570-mic8g.bi - 125W micronA 1750. Fan 1500RPM by default. 6phase ir3567B activates</li>
+  <li>rx58mt8gf2   - 145W micronA 1244/1750, rx580  -dont boot on ir3567B</li>
+  <li>MIC400.BIN   - 120W micronA - no ir3567B phase activatin</li>
+</ul>
+
+<p>Активная практика, соответствующая составления данного мануала была звершена ~ на появлений вариаций с ШИМ up9504, поэтому более свежие китайские изобретения здесь не отражены.</p>
+
+<h2 id="device-ids-из-inf-файлов-пока-не-структурировано">device ids из inf-файлов (пока не структурировано)</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(?? no driver) 1002-67DF-BDBD-A14C-C0 Blackmagic Radeon Pro 580 8 GB
+"Radeon RX580 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_C1 HP/ASUS RX580 Mobile, мало VBIOS
+"Radeon RX570 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_C2 нет VBIOS
+"Radeon RX580 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_C3 580 для HP L39869, мало VBIOS
+"Radeon (TM) RX480 Graphics"PCI\VEN_1002&amp;DEV_67DF&amp;REV_C4 Dell RX580 Mobile, 1 VBIOS
+"Radeon (TM) RX470 Graphics"PCI\VEN_1002&amp;DEV_67DF&amp;REV_C5 Dell RX570 Mobile, мало VBIOS
+"Radeon RX570 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_C6 нет VBIOS
+"Radeon (TM) RX480 Graphics"PCI\VEN_1002&amp;DEV_67DF&amp;REV_C7 стандарная 480
+"Radeon (TM) RX470 Graphics"PCI\VEN_1002&amp;DEV_67DF&amp;REV_CF стандарная 470
+"Radeon(TM) RX470 Graphics" PCI\VEN_1002&amp;DEV_67DF&amp;REV_D7 нет VBIOS
+"Radeon RX470 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_E0 нет VBIOS
+"Radeon RX590 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_E1 стандарная 590
+"Radeon RX590 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_E3 нет VBIOS
+"Radeon RX580 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_E7 стандарная 580
+"Radeon RX570 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_EF стандарная 570
+"Radeon P30PH"              PCI\VEN_1002&amp;DEV_67DF&amp;REV_F7 нет VBIOS
+"Radeon RX470 Series"       PCI\VEN_1002&amp;DEV_67DF&amp;REV_FF мало VBIOS 470D/560XT
+Прошивка может сделать 6FDF из 67DF. Для 6FDF:
+"AMD Radeon RX590 GME"       PCI\VEN_1002&amp;DEV_6FDF&amp;REV_E7 580 с прошивкой
+"AMD Radeon RX580 2048SP"   PCI\VEN_1002&amp;DEV_6FDF&amp;REV_EF 570 с прошивкой
+
+
+Vendors overriding in windows inf:
+Asus 0533 - Asus mining led overrides 570 -&gt; Asus 470
+Asus 0539 - 570 -&gt; Asus 470 (?)
+MSI  341E - 470-&gt;570 (Armor AC 4g &amp; 8g(?))
+PowerColor 560 - 470 -&gt; 560 XT (4g)
+XFX  9566 -   470 -&gt; 560 XT
+Sapphire A353-470 -&gt; 560 XT (4g)
+Sapphire A396-470 -&gt; 560 XT (4g)
+
+</code></pre></div></div>
+
+      </section>
+    </div>
+	<img src="https://github.gpuzelenograd.cloudns.be/count?p=/RX470RU" loading="eager" alt="" aria-hidden="true" style="position: absolute; bottom: 0px; width: 1px; height: 1px;">
+	<noscript><img src="https://gpuzelenograd.goatcounter.com/count?p=/nos/RX470RU" alt="cnoscript"></noscript>	
+<script>
+  
+// GoatCounter: https://www.goatcounter.com
+// This file (and *only* this file) is released under the ISC license:
+// https://opensource.org/licenses/ISC
+;(function() {
+	'use strict';
+
+	if (window.goatcounter && window.goatcounter.vars)  // Compatibility with very old version; do not use.
+		window.goatcounter = window.goatcounter.vars
+	else
+		window.goatcounter = window.goatcounter || {}
+
+	// Load settings from data-goatcounter-settings.
+	var s = document.querySelector('script[data-goatcounter]')
+	if (s && s.dataset.goatcounterSettings) {
+		try         { var set = JSON.parse(s.dataset.goatcounterSettings) }
+		catch (err) { console.error('invalid JSON in data-goatcounter-settings: ' + err) }
+		for (var k in set)
+			if (['no_onload', 'no_events', 'allow_local', 'allow_frame', 'path', 'title', 'referrer', 'event'].indexOf(k) > -1)
+				window.goatcounter[k] = set[k]
+	}
+
+	var enc = encodeURIComponent
+
+	// Get all data we're going to send off to the counter endpoint.
+	var get_data = function(vars) {
+		var data = {
+			p: (vars.path     === undefined ? goatcounter.path     : vars.path),
+			r: (vars.referrer === undefined ? goatcounter.referrer : vars.referrer),
+			t: (vars.title    === undefined ? goatcounter.title    : vars.title),
+			e: !!(vars.event || goatcounter.event),
+			s: [window.screen.width, window.screen.height, (window.devicePixelRatio || 1)],
+			b: is_bot(),
+			q: "?utm_campaign=" + navigator.language + "_" + location.search.substring(1),
+		}
+
+		var rcb, pcb, tcb  // Save callbacks to apply later.
+		if (typeof(data.r) === 'function') rcb = data.r
+		if (typeof(data.t) === 'function') tcb = data.t
+		if (typeof(data.p) === 'function') pcb = data.p
+
+		if (is_empty(data.r)) data.r = document.referrer
+		if (is_empty(data.t)) data.t = document.title
+		if (is_empty(data.p)) data.p = get_path()
+
+		if (rcb) data.r = rcb(data.r)
+		if (tcb) data.t = tcb(data.t)
+		if (pcb) data.p = pcb(data.p)
+		return data
+	}
+
+	// Check if a value is "empty" for the purpose of get_data().
+	var is_empty = function(v) { return v === null || v === undefined || typeof(v) === 'function' }
+
+	// See if this looks like a bot; there is some additional filtering on the
+	// backend, but these properties can't be fetched from there.
+	var is_bot = function() {
+		// Headless browsers are probably a bot.
+		var w = window, d = document
+		if (w.callPhantom || w._phantom || w.phantom)
+			return 150
+		if (w.__nightmare)
+			return 151
+		if (d.__selenium_unwrapped || d.__webdriver_evaluate || d.__driver_evaluate)
+			return 152
+		if (navigator.webdriver)
+			return 153
+		return 0
+	}
+
+	// Object to urlencoded string, starting with a ?.
+	var urlencode = function(obj) {
+		var p = []
+		for (var k in obj)
+			if (obj[k] !== '' && obj[k] !== null && obj[k] !== undefined && obj[k] !== false)
+				p.push(enc(k) + '=' + enc(obj[k]))
+		return '?' + p.join('&')
+	}
+
+	// Show a warning in the console.
+	var warn = function(msg) {
+		if (console && 'warn' in console)
+			console.warn('goatcounter: ' + msg)
+	}
+
+	// Get current path.
+	var get_path = function() {
+		var loc = location,
+			c = document.querySelector('link[rel="canonical"][href]')
+		if (c) {  // May be relative or point to different domain.
+			var a = document.createElement('a')
+			a.href = c.href
+			if (a.hostname.replace(/^www\./, '') === location.hostname.replace(/^www\./, ''))
+				loc = a
+		}
+		return (loc.pathname + loc.search) || '/'
+	}
+
+	// Run function after DOM is loaded.
+	var on_load = function(f) {
+		if (document.body === null)
+			document.addEventListener('DOMContentLoaded', function() { f() }, false)
+		else
+			f()
+	}
+
+	// Filter some requests that we (probably) don't want to count.
+	goatcounter.filter = function() {
+		if ('visibilityState' in document && document.visibilityState === 'prerender')
+			return 'visibilityState'
+		if (!goatcounter.allow_frame && location !== parent.location)
+			return 'frame'
+		if (!goatcounter.allow_local && location.hostname.match(/(localhost$|^127\.|^10\.|^172\.(1[6-9]|2[0-9]|3[0-1])\.|^192\.168\.|^0\.0\.0\.0$)/))
+			return 'localhost'
+		if (!goatcounter.allow_local && location.protocol === 'file:')
+			return 'localfile'
+		if (localStorage && localStorage.getItem('skipgc') === 't')
+			return 'disabled with #toggle-goatcounter'
+		return false
+	}
+
+	// Get URL to send to GoatCounter.
+	window.goatcounter.url = function(vars) {
+		var data = get_data(vars || {})
+		if (data.p === null)  // null from user callback.
+			return
+		data.rnd = Math.random().toString(36).substr(2, 5)  // Browsers don't always listen to Cache-Control.
+
+		var endpoint = 'https://gpuzelenograd.goatc' + "ounter.com/co" + 'unt'
+		if (!endpoint)
+			return warn('no endpoint found')
+
+		return endpoint + urlencode(data)
+	}
+
+	// Count a hit.
+	window.goatcounter.count = function(vars) {
+		var f = goatcounter.filter()
+		if (f)
+			return warn('not counting because of: ' + f)
+
+		var url = goatcounter.url(vars)
+		if (!url)
+			return warn('not counting because path callback returned null')
+
+		var img = document.createElement('img')
+		img.src = url
+		img.style.position = 'absolute'  // Affect layout less.
+		img.style.bottom = '0px'
+		img.style.width = '1px'
+		img.style.height = '1px'
+		img.loading = 'eager'
+		img.setAttribute('alt', '')
+		img.setAttribute('aria-hidden', 'true')
+
+		var rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }
+		img.addEventListener('load', rm, false)
+		document.body.appendChild(img)
+		if (window.location.search) { //Remove search part for bookmarking, but only if it present
+			window.history.replaceState({}, '', window.location.pathname);
+		}
+	}
+
+  on_load(function() {
+    // 1. Page is visible, count request.
+    // 2. Page is not yet visible; wait until it switches to 'visible' and count.
+    // See #487
+    if (!('visibilityState' in document) || document.visibilityState === 'visible')
+      goatcounter.count()
+    else {
+      var f = function(e) {
+        if (document.visibilityState !== 'visible')
+          return
+        document.removeEventListener('visibilitychange', f)
+        goatcounter.count()
+      }
+      document.addEventListener('visibilitychange', f)
+    }
+  })
+})();
+</script>
+  </body>
+</html>

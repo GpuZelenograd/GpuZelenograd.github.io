@@ -1,0 +1,11 @@
+Translations of the "Old Nvidia artifacts" guide are welcome!
+
+To contribute a translation, the github can be used:
+ - fork this repository
+ - copy NVIDIA.md as NVIDIA__.md (with language code inplace of __)
+ - translate the new file
+ - open a pull request at https://github.com/GpuZelenograd/GpuZelenograd.github.io/pulls
+
+To contribute a translation without github - translate the human-readable part in
+https://github.com/GpuZelenograd/GpuZelenograd.github.io/blob/master/NVIDIA.md?plain=1
+and send he resulting text file to galkin.vv@yandex.com or https://t.me/GpuZelenograd
