@@ -269,7 +269,27 @@ E388 - [470 Quad Firmware, 4phase NCP81022, 1x8pin, DVI-only. D9VVR Аналог
 * GV-RX570GAMING-8GD-MI/F11/072E  90W 1750Mhz K4G80325FB_MI_PARTNER_GBT
 * GV-RX570GAMING-8GD-MI/F*/0704   90W 1750Mhz MT51J256M32HFB (TIC33423)
 
-## Powercolor/Dataland
+## Powercolor - карты где выход HDMI находится между DP и DVI (и все 3 выхода в одну линию)
+![PolarisDpHdmiDvi](photo/PolarisDpHdmiDvi.png)
+
+Вариация с таким расположением видеовыходов появилась позднее других. Для неё подходят только VBIOS выпущенные не ранее 2019 года
+
+* Red Dragon AXRX 590 8GBD5-DHD
+  * [Samsung 8GB K0828OA9.SLC](https://www.techpowerup.com/vgabios/216290/powercolor-rx590-8192-190827)
+  * [Micron 8GB K0118OAX.MLC](https://www.techpowerup.com/vgabios/210648/powercolor-rx590-8192-190117)
+* Red Dragon AXRX 580 8GBD5-DHD/DHDV2 (+590 GME)
+  * [Samsung 8GB I9624OA5.SLO](https://www.techpowerup.com/vgabios/256122/256122)
+  * [Hynix 8GB I9516OAJ.HLC](https://www.techpowerup.com/vgabios/250135/250135)
+  * [Micron 8GB I9624OA6.MLO](https://www.techpowerup.com/vgabios/255229/255229)
+* Red Dragon AXRX 570 8GBD5-DHDV3 (+580 2048SP)
+  * [Samsung 8GB J0616ODA.SJO](https://www.techpowerup.com/vgabios/242799/powercolor-rx570-8192-200616)
+* Red Dragon AXRX 570 4GBD5-DHDV3
+  * [Samsung 4GB J0724OA9.MLC](https://www.techpowerup.com/vgabios/230671/230671)
+  * [Hynix 4GB J0309OAI.HLC](https://www.techpowerup.com/vgabios/251060/251060)
+  * [Micron 4GB D9XDL J0406OD3.MJO](https://www.techpowerup.com/vgabios/223009/223009)
+  
+
+## Powercolor/Dataland - карты где выход HDMI у края
 ШИМка всегда ir3567B, видеовыходы в биосе всегда стандартные. VBIOS, активирующие все 6 фаз ir3567B, даже если в прошивке ШИМки по умолчанию активны не все:
 * [RX580 113-TIC32852-001](https://www.techpowerup.com/vgabios/200892/asrock-rx580-8192-180329) - 1380Mhz GPU 2000Mhz 8GB Micron/Samsung/Hynix
 * [RX580 2048SP J0112JAY.MLC](https://www.techpowerup.com/vgabios/207832/207832) - 1310Mhz GPU 1750Mhz 8GB Micron/Samsung
