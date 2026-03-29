@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <script>{if (/^RU/i.test(navigator.language) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIARU" + window.location.search)}{if (/html$/.test(window.location.pathname) && !/noredirect/.test(window.location.search)) window.location.replace("/NVIDIA" + window.location.search)}</script>
+    
+    
+    <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIA" hreflang="x-default"/> <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIA" hreflang="en"/> <link rel="alternate" href="https://gpuzelenograd.github.io/NVIDIARU" hreflang="ru"/>
+    
+    
+    
+    
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Old NVIDIA artifacts | GpuZelenograd</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Old NVIDIA artifacts" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Tool to fix GTX470-780Ti GPUs" />
+<meta property="og:description" content="Tool to fix GTX470-780Ti GPUs" />
+<link rel="canonical" href="https://gpuzelenograd.github.io/NVIDIA" />
+<meta property="og:url" content="https://gpuzelenograd.github.io/NVIDIA" />
+<meta property="og:site_name" content="GpuZelenograd" />
+<meta property="og:image" content="https://gpuzelenograd.github.io/photo/titan-scheme.png" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://gpuzelenograd.github.io/photo/titan-scheme.png" />
+<meta property="twitter:title" content="Old NVIDIA artifacts" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","description":"Tool to fix GTX470-780Ti GPUs","headline":"Old NVIDIA artifacts","image":"https://gpuzelenograd.github.io/photo/titan-scheme.png","name":"Old NVIDIA artifacts","url":"https://gpuzelenograd.github.io/NVIDIA","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"operatingSystem":"Windows 10 | Linux","applicationCategory":"UtilitiesApplication","applicationSubCategory":"VBIOS tool","aggregateRating":{"@type": "AggregateRating","ratingValue": "4.8","ratingCount":"1211"},"fileSize":"4MB","softwareVersion":"2022.12","interactionCount":{"UserDownloads":"100500"}}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+    <link rel="icon" type="image/png" href="favicon128.png">
+	<style>
+		
+		/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}details,main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}.highlight table td{padding:5px}.highlight table pre{margin:0}.highlight,.highlight .w{color:#d0d0d0}.highlight .err{color:#151515;background-color:#ac4142}.highlight .c,.highlight .cd,.highlight .cm,.highlight .c1,.highlight .cs{color:#888}.highlight .cp{color:#f4bf75}.highlight .nt{color:#f4bf75}.highlight .o,.highlight .ow{color:#d0d0d0}.highlight .p,.highlight .pi{color:#d0d0d0}.highlight .gi{color:#90a959}.highlight .gd{color:#ac4142}.highlight .gh{color:#6a9fb5;font-weight:bold}.highlight .k,.highlight .kn,.highlight .kp,.highlight .kr,.highlight .kv{color:#aa759f}.highlight .kc{color:#d28445}.highlight .kt{color:#d28445}.highlight .kd{color:#d28445}.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .sh,.highlight .sx,.highlight .s1{color:#90a959}.highlight .sr{color:#75b5aa}.highlight .si{color:#8f5536}.highlight .se{color:#8f5536}.highlight .nn{color:#f4bf75}.highlight .nc{color:#f4bf75}.highlight .no{color:#f4bf75}.highlight .na{color:#6a9fb5}.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .il,.highlight .mo,.highlight .mb,.highlight .mx{color:#90a959}.highlight .ss{color:#90a959}body{font:14px/22px Helvetica, Arial, sans-serif;color:#2b2b2b;font-weight:300;margin:0px;padding:0px 0 20px 0px;background:url(/assets/images/body-background.png) #eae6d1}h1,h2,h3,h4,h5,h6{color:#333;margin:0 0 10px}p,ul,ol,table,pre,dl{margin:0 0 20px}h1,h2,h3{line-height:1.1}h1{font-size:26px}h2{font-size:23px;color:#393939}h3,h4,h5,h6{color:#666666}h3{font-size:18px;line-height:24px}a{color:#4276b6;font-weight:400;text-decoration:none}a small{font-size:11px;color:#666;margin-top:-0.6em;display:block}ul{text-align:left;line-height:28px}li::marker{content:"▸ "}strong{font-weight:bold}.wrapper{max-width:830px;background:#fbfbfb;margin:0 auto;margin-top:150px;position:relative;border-radius:3px;border:1px solid #cbcbcb;box-shadow:0px 1px 2px rgba(0,0,0,0.09),inset 0px 0px 2px 2px rgba(255,255,255,0.5),inset 0 0 5px 5px rgba(255,255,255,0.4)}section img{max-width:100%}blockquote{border-left:1px solid #ffcc00;margin:0;padding:0 0 0 20px;font-style:italic}code{font-family:'monospace';background:#eee;color:#2b2b2b}pre{padding:8px 15px;background:#eee;border-radius:3px;border:1px solid #c7c7c7;overflow:auto;overflow-y:hidden}pre code{margin:0px;padding:0px}kbd{background-color:#fafbfc;border:1px solid #c6cbd1;border-bottom-color:#959da5;border-radius:3px;box-shadow:inset 0 -1px 0 #959da5;color:#444d56;display:inline-block;font-size:11px;line-height:10px;padding:3px 5px;vertical-align:middle}table{width:100%;border-collapse:collapse}th{text-align:left;padding:5px 10px;border-bottom:1px solid #e5e5e5;color:#444}td{text-align:left;padding:5px 10px;border-bottom:1px solid #e5e5e5;border-right:1px solid #ffcc00}td:first-child{border-left:1px solid #ffcc00}hr{border:0;outline:none;height:11px;background:transparent url(/assets/images/hr.gif) center center repeat-x;margin:0 0 20px}dt{color:#444;font-weight:700}header{padding:25px 20px 40px 20px;margin:0;position:fixed;top:0;left:0;right:0;width:100%;text-align:center;background:#4073b3;box-shadow:1px 0px 2px rgba(0,0,0,0.75);text-shadow:rgba(0,0,0,0.2) 0 1px 0;color:#d8d8d8;z-index:99;-webkit-font-smoothing:antialiased;min-height:76px}header h1{color:#f3f3f3;font:40px Helvetica, Arial, sans-serif;margin:0px}header p{font-size:18px;margin:0px}section{max-width:768px;padding:10px 0px 15px 0px;margin:auto;position:relative}small{font-size:12px}section p{text-align:justify}body{word-wrap:break-word}big{white-space:nowrap}@media print, screen and (max-width: 799px){.wrapper{border:3px solid #fbfbfb;margin-top:113px}header{padding:5px 5px;margin:0}header h1{font-size:32px}header p{font-size:12px}}@media print, screen and (max-width: 599px){big{font-size:14px}h3{font-size:12px}}@media print, screen and (max-width: 359px){header{position:relative;padding:5px 0px;min-height:0px}header h1{font-size:24px}.wrapper{margin-top:5px}big{display:block;white-space:inherit}p{column-count:unset !important}}@media print{body{padding:0.4in;font-size:12pt;color:#444}}
+
+	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+
+    <header>
+      <h1>Old NVIDIA artifacts</h1>
+      <p>Tool to fix GTX470-780Ti GPUs</p>
+    </header>
+
+    <div class="wrapper">
+      <section>
+        <p><a href="https://www.chinafix.com/thread-1335463-1-1.html" style="float: right">   <code class="language-plaintext highlighter-rouge">🌐中文</code></a>
+Old NVIDIA artifacts <strong>2022.12</strong> disables bad blocks to fix GPU artifacting. Download:
+<br /></p>
+
+<h3 id="windows-7-11-64-bit️4mb-zip-gtx470-780ti"><a href="https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.12.zip"><big><big><strong>Windows 7-11 64-bit</strong></big></big>🗄️4MB zip, GTX470-780Ti</a></h3>
+<p><img src="/photo/titan-scheme.png" alt="Titan" style="float: right; width: 42%;" /></p>
+<h3 id="linux4mb-tarxz-gtx645-780ti"><a href="https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.12.tar.xz"><big><big><strong>Linux</strong></big></big>🐧4MB tar.xz, GTX645-780Ti</a></h3>
+
+<p><br />
+Old NVIDIA artifacts utility works with Fermi, Kepler and 750Ti GPUs. It can fix some artifacting/Code 43 GPUs by flashing VBIOS that disable malfunctioning GPU parts. Fixed GPUs can be used in any computer. GTX Titan 6GB is also supported
+<br />
+<br />
+<a href="#changelog">Changelog and misc downloads</a>
+<br />
+Discussion area: <a href="https://www.reddit.com/r/GPURepair/comments/11bzn63/nvidia_470780_vbios_mod_fix_artifactscode_43_by/">comments on this Reddit post</a>
+<br /><br />
+Thanks to all researchers for modded BIOSes, they were very helpful during development!
+<br /></p>
+
+<h2 id="user-manual">User manual</h2>
+<p>The steps below represent a typical use of the utility, and due to the semi-automatic flashing, it takes only ~15 minutes. For experts, there is a <a href="https://gpuzelenograd.github.io/EXPERT">non-automated mode for VBIOS modification</a></p>
+
+<p>Prepare your system for malfunctioning GPU, otherwise your system may hang during OS boot:  start the utility while faulty GPU is not plugged yet</p>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e1.png" alt="e1" /></p>
+
+<ul>
+  <li>click “Enable boot without driver” (<a href="#bootmode">special boot mode</a> where you can select between regular boot and safe mode without video driver)</li>
+  <li>follow instructions on your screen</li>
+</ul>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e2.png" alt="e2" /></p>
+
+<p>if you can’t boot your system with faulty GPU even in safe mode, then check <a href="#troubleshootingsect">Troubleshooting</a></p>
+
+<h2 id="first-flash">First flash</h2>
+<p>Click “Flash testing VBIOS”</p>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e3.png" alt="e3" /></p>
+
+<p>Original VBIOS automatically got saved at this point, click “Reboot”</p>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e4.png" alt="e4" /></p>
+
+<h2 id="next-flashes">Next flashes</h2>
+<p>If the system boots fine and there are NO artifacts on the screen:</p>
+<ul>
+  <li>install compatible NVIDIA driver, like 390/391.xx</li>
+  <li>run any <em>short</em> benchmark</li>
+  <li>start the utility again, select “Activate more blocks and reboot”</li>
+</ul>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e5.png" alt="e5" /></p>
+
+<p>If there are artifacts or boot/benchmark problems – select “Flash fixing VBIOS and reboot”</p>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e6.png" alt="e6" /></p>
+
+<p>Continue until the utility will find an optimal and stable VBIOS. If your GPU still shows some artifacts, then it can not be fixed by this utility.</p>
+
+<h2 id="last-stage">Last stage</h2>
+<p>If the utility have found optimal and stable VBIOS and GPU have completed any benchmark – start the utility and select “Complete configuring”, this will save modified VBIOS and return your system to normal boot mode</p>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e7.png" alt="e7" /></p>
+
+<p>You can run GPU-Z and check your current “bus width” and “memory size”</p>
+
+<p><img src="https://gpuzelenograd.github.io/photo/e8.png" alt="e8" /></p>
+
+<h3 id="performance">Performance</h3>
+<p>If modification succeeds, the GPU memory size and bus width reduces. For GPUs with only 4 memory chips the performance drop is significant, but for cards with a lot of chips the difference is quite small.</p>
+
+<p>The standard 3GB 384bit <a href="https://www.techpowerup.com/gpu-specs/gigabyte-gtx-780-ti-ghz-edition.b2682">780Ti GHz Edition</a> on average achieves <a href="https://www.3dmark.com/search#advanced?test=spy%20P&amp;cpuId=&amp;gpuId=908&amp;gpuCount=1&amp;gpuType=ALL&amp;deviceType=ALL&amp;storageModel=ALL&amp;memoryChannels=0&amp;country=&amp;scoreType=overallScore&amp;hofMode=false&amp;showInvalidResults=false&amp;freeParams=&amp;startDate=2017-01-01&amp;endDate=2100-01-01&amp;minGpuCoreClock=1150&amp;maxGpuCoreClock=1340&amp;minGpuMemClock=&amp;maxGpuMemClock=&amp;minCpuClock=&amp;maxCpuClock=">3700 Graphics score</a> in the TimeSpy benchmark. And here are results for fixed 780Ti with 320bit bus left, and a SLIed pair of such cards:</p>
+
+<p style="column-count:2;text-align: left;"><a href="https://www.3dmark.com/3dm/88862792"><strong>Single</strong> 780Ti 2.5GB GHz Edition<img src="https://gpuzelenograd.github.io/photo/780ti-ghz-3dmarkpreview.png" alt="result 3493" /></a><a href="https://www.3dmark.com/3dm/88861601"><strong>SLI 2×</strong>780Ti 2.5GB<img src="https://gpuzelenograd.github.io/photo/780ti-sli-3dmarkpreview.png" alt="result 6111" /></a></p>
+
+<h3 id="special-boot-mode"><a id="bootmode">Special boot mode</a></h3>
+<p>“Enable boot without driver” button just tunes built-in OS functionality to let you enter safe mode without video driver. To reverse it, try one of this:</p>
+<ul>
+  <li>successfully complete VBIOS modification (will be applied automatically)</li>
+  <li>manually via the “Disable boot without driver” button</li>
+  <li>manually by launching as Administrator <code class="language-plaintext highlighter-rouge">restore_boot_mode</code> tool from detail subfolder</li>
+  <li>manually by running as Administrator <code class="language-plaintext highlighter-rouge">bcdedit /set "{bootmgr}" displaybootmenu no</code> (for Linux: <code class="language-plaintext highlighter-rouge">systemctl set-default graphical.target</code>)</li>
+</ul>
+
+<h3 id="troubleshooting"><a id="troubleshootingsect">Troubleshooting</a></h3>
+<p>Some of faulty GPUs may hang even during POST and don’t make it to safe mode. Part of them <em>can</em> be fixed, but may require several workarounds to be able to boot the OS and be flashed with the “Old NVIDIA artifacts” tool. On some computers, after 1 minute of a black screen, the monitor will turn on and the system will continue to boot. If it doesn’t, try the following options:</p>
+<ul>
+  <li>boot with problematic GPU unplugged and enable/disable “CSM compatible” (non-EFI) mode in motherboard BIOS. Save settings, power off and plug the GPU again</li>
+  <li>boot with problematic GPU unplugged and enable “Integrated GPU” or “iGPU Multi-Monitor” in motherboard BIOS. Save settings, power off and plug the GPU again, but leave the display attached to the motherboard</li>
+  <li>use two discrete GPUs: plug the working GPU with display attached into the PCIe slot closest to CPU, and plug the faulty card in another slot.</li>
+</ul>
+
+<p>Several Asus models report <code class="language-plaintext highlighter-rouge">Error: Selected GPU doesn't support flashing modified VBIOS</code>. For part of them, this can be resolved from console:</p>
+<ul>
+  <li>Open command line window as Administrator</li>
+  <li><code class="language-plaintext highlighter-rouge">cd</code> to the “detail” subfolder with “nvflash” executable</li>
+  <li>run command to make VBIOS writable: <code class="language-plaintext highlighter-rouge">nvflash.exe --protectoff</code>
+<img src="/photo/protectoff.png" alt="protectoff" /></li>
+</ul>
+
+<p>Older GPU models like Fermi-based GTX470-590 and <a href="https://gpuzelenograd.github.io/photo/GridK2-Fixed.png">Kepler-based Grid</a> cards uses older NVIDIA 3xx drivers and are supported only by Windows version, not the Linux one.</p>
+
+<h3 id="changelog-and-misc-downloads"><a id="changelog">Changelog and misc downloads</a></h3>
+
+<p><a href="#top">Version 2022.12</a> improvements:</p>
+<ul>
+  <li>now works on Windows7 (Windows10-11 as well)</li>
+  <li>fixed flashing GTX750Ti Asus DirectCU II, GTX760 Asus DirectCU II and some others</li>
+  <li>generating modded VBIOSes from a given file can be done without admin rights</li>
+</ul>
+
+<h4 id="older-202211-downloads">Older 2022.11 downloads</h4>
+<ul>
+  <li><a href="https://gpuzelenograd.github.io/releases/Windows_old_nvidia_artifacts-2022.11.zip">Windows <i>8</i>-10 64-bit 4MB zip, GTX 470-780Ti</a></li>
+  <li><a href="https://gpuzelenograd.github.io/releases/Linux_old_nvidia_artifacts-2022.11.tar.xz">Linux 4MB tar.xz, GTX <i>645</i>-780Ti</a></li>
+</ul>
+
+<h4 id="misc">Misc</h4>
+<ul>
+  <li><a href="https://gpuzelenograd.github.io/releases/NVIDIA-GTX-Titan-6GB_Disable.zip">modified VBIOS variants for reference edition GTX Titan 6GB</a></li>
+</ul>
+
+<p style="text-align: right;"><a href="https://github.com/GpuZelenograd/GpuZelenograd.github.io/blob/master/NVIDIAtranslating"><em>Translations of this guide are welcome</em></a></p>
+
+      </section>
+    </div>
+	<img src="https://github.gpuzelenograd.cloudns.be/count?p=/NVIDIA" loading="eager" alt="" aria-hidden="true" style="position: absolute; bottom: 0px; width: 1px; height: 1px;">
+	<noscript><img src="https://gpuzelenograd.goatcounter.com/count?p=/nos/NVIDIA" alt="cnoscript"></noscript>	
+<script>
+  
+// GoatCounter: https://www.goatcounter.com
+// This file (and *only* this file) is released under the ISC license:
+// https://opensource.org/licenses/ISC
+;(function() {
+	'use strict';
+
+	if (window.goatcounter && window.goatcounter.vars)  // Compatibility with very old version; do not use.
+		window.goatcounter = window.goatcounter.vars
+	else
+		window.goatcounter = window.goatcounter || {}
+
+	// Load settings from data-goatcounter-settings.
+	var s = document.querySelector('script[data-goatcounter]')
+	if (s && s.dataset.goatcounterSettings) {
+		try         { var set = JSON.parse(s.dataset.goatcounterSettings) }
+		catch (err) { console.error('invalid JSON in data-goatcounter-settings: ' + err) }
+		for (var k in set)
+			if (['no_onload', 'no_events', 'allow_local', 'allow_frame', 'path', 'title', 'referrer', 'event'].indexOf(k) > -1)
+				window.goatcounter[k] = set[k]
+	}
+
+	var enc = encodeURIComponent
+
+	// Get all data we're going to send off to the counter endpoint.
+	var get_data = function(vars) {
+		var data = {
+			p: (vars.path     === undefined ? goatcounter.path     : vars.path),
+			r: (vars.referrer === undefined ? goatcounter.referrer : vars.referrer),
+			t: (vars.title    === undefined ? goatcounter.title    : vars.title),
+			e: !!(vars.event || goatcounter.event),
+			s: [window.screen.width, window.screen.height, (window.devicePixelRatio || 1)],
+			b: is_bot(),
+			q: "?utm_campaign=" + navigator.language + "_" + location.search.substring(1),
+		}
+
+		var rcb, pcb, tcb  // Save callbacks to apply later.
+		if (typeof(data.r) === 'function') rcb = data.r
+		if (typeof(data.t) === 'function') tcb = data.t
+		if (typeof(data.p) === 'function') pcb = data.p
+
+		if (is_empty(data.r)) data.r = document.referrer
+		if (is_empty(data.t)) data.t = document.title
+		if (is_empty(data.p)) data.p = get_path()
+
+		if (rcb) data.r = rcb(data.r)
+		if (tcb) data.t = tcb(data.t)
+		if (pcb) data.p = pcb(data.p)
+		return data
+	}
+
+	// Check if a value is "empty" for the purpose of get_data().
+	var is_empty = function(v) { return v === null || v === undefined || typeof(v) === 'function' }
+
+	// See if this looks like a bot; there is some additional filtering on the
+	// backend, but these properties can't be fetched from there.
+	var is_bot = function() {
+		// Headless browsers are probably a bot.
+		var w = window, d = document
+		if (w.callPhantom || w._phantom || w.phantom)
+			return 150
+		if (w.__nightmare)
+			return 151
+		if (d.__selenium_unwrapped || d.__webdriver_evaluate || d.__driver_evaluate)
+			return 152
+		if (navigator.webdriver)
+			return 153
+		return 0
+	}
+
+	// Object to urlencoded string, starting with a ?.
+	var urlencode = function(obj) {
+		var p = []
+		for (var k in obj)
+			if (obj[k] !== '' && obj[k] !== null && obj[k] !== undefined && obj[k] !== false)
+				p.push(enc(k) + '=' + enc(obj[k]))
+		return '?' + p.join('&')
+	}
+
+	// Show a warning in the console.
+	var warn = function(msg) {
+		if (console && 'warn' in console)
+			console.warn('goatcounter: ' + msg)
+	}
+
+	// Get current path.
+	var get_path = function() {
+		var loc = location,
+			c = document.querySelector('link[rel="canonical"][href]')
+		if (c) {  // May be relative or point to different domain.
+			var a = document.createElement('a')
+			a.href = c.href
+			if (a.hostname.replace(/^www\./, '') === location.hostname.replace(/^www\./, ''))
+				loc = a
+		}
+		return (loc.pathname + loc.search) || '/'
+	}
+
+	// Run function after DOM is loaded.
+	var on_load = function(f) {
+		if (document.body === null)
+			document.addEventListener('DOMContentLoaded', function() { f() }, false)
+		else
+			f()
+	}
+
+	// Filter some requests that we (probably) don't want to count.
+	goatcounter.filter = function() {
+		if ('visibilityState' in document && document.visibilityState === 'prerender')
+			return 'visibilityState'
+		if (!goatcounter.allow_frame && location !== parent.location)
+			return 'frame'
+		if (!goatcounter.allow_local && location.hostname.match(/(localhost$|^127\.|^10\.|^172\.(1[6-9]|2[0-9]|3[0-1])\.|^192\.168\.|^0\.0\.0\.0$)/))
+			return 'localhost'
+		if (!goatcounter.allow_local && location.protocol === 'file:')
+			return 'localfile'
+		if (localStorage && localStorage.getItem('skipgc') === 't')
+			return 'disabled with #toggle-goatcounter'
+		return false
+	}
+
+	// Get URL to send to GoatCounter.
+	window.goatcounter.url = function(vars) {
+		var data = get_data(vars || {})
+		if (data.p === null)  // null from user callback.
+			return
+		data.rnd = Math.random().toString(36).substr(2, 5)  // Browsers don't always listen to Cache-Control.
+
+		var endpoint = 'https://gpuzelenograd.goatc' + "ounter.com/co" + 'unt'
+		if (!endpoint)
+			return warn('no endpoint found')
+
+		return endpoint + urlencode(data)
+	}
+
+	// Count a hit.
+	window.goatcounter.count = function(vars) {
+		var f = goatcounter.filter()
+		if (f)
+			return warn('not counting because of: ' + f)
+
+		var url = goatcounter.url(vars)
+		if (!url)
+			return warn('not counting because path callback returned null')
+
+		var img = document.createElement('img')
+		img.src = url
+		img.style.position = 'absolute'  // Affect layout less.
+		img.style.bottom = '0px'
+		img.style.width = '1px'
+		img.style.height = '1px'
+		img.loading = 'eager'
+		img.setAttribute('alt', '')
+		img.setAttribute('aria-hidden', 'true')
+
+		var rm = function() { if (img && img.parentNode) img.parentNode.removeChild(img) }
+		img.addEventListener('load', rm, false)
+		document.body.appendChild(img)
+		if (window.location.search) { //Remove search part for bookmarking, but only if it present
+			window.history.replaceState({}, '', window.location.pathname);
+		}
+	}
+
+  on_load(function() {
+    // 1. Page is visible, count request.
+    // 2. Page is not yet visible; wait until it switches to 'visible' and count.
+    // See #487
+    if (!('visibilityState' in document) || document.visibilityState === 'visible')
+      goatcounter.count()
+    else {
+      var f = function(e) {
+        if (document.visibilityState !== 'visible')
+          return
+        document.removeEventListener('visibilitychange', f)
+        goatcounter.count()
+      }
+      document.addEventListener('visibilitychange', f)
+    }
+  })
+})();
+</script>
+  </body>
+</html>
